@@ -245,18 +245,38 @@ Die folgenden Listen sollten also eher als Guidelines gesehen werden. Dennoch gi
 Diese Skills sind notwendig, um die künstlerische und technische Seite des Berufes zusammenzuführen.
 
 ==== Hard
-- Verständnis des kompletten Asset-Erstellungs-Workflows bzw. existierenden Pipelines um Engpässe zu erkennen, Tools zu entwickeln und zu erweitern @chadwick2009 @gdcHanna2011 @gdcAkesson2011 @gdcLindqvist2011 @gdcNielsen2011 @gdcPletcher2011 @gdcGibson2011 @gdcGoodman2011 @gdcFerguson2011 @robinson2018 @unrealJob  @rockstarJobTaAnimation @riotJob
-- Render-Optimierung @chadwick2009 @robinson2018
-- Entwicklung und Verwendung von Reporting-Systemen, um die Performance von Spielen im Auge zu behalten @chadwick2009 @robinson2018
-- Tiefer Einblick in den Renderingprozess @gdcGoodman2011 @robinson2018
-- Physiksimulation @chadwick2009 @gdcLindqvist2011
-  - bekannte Engines und deren Verwendung bekannt (wie z. B. Havok) @chadwick2009
+- Verständnis des kompletten Asset-Erstellungs-Workflows bzw. existierenden Pipelines um Engpässe zu erkennen, Tools zu entwickeln und zu erweitern @chadwick2009 @gdcHanna2011 @gdcAkesson2011 @gdcLindqvist2011 @gdcNielsen2011 @gdcPletcher2011 @gdcGibson2011 @gdcGoodman2011 @gdcFerguson2011 @robinson2018 @unrealJob  @rockstarJobTaAnimation @riotJob @riotJobTaManager2026 @epicJobLeadTa2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @eaJobRigging2026 @vividJobTa2026 @rockfishJobTa2026 @weltenbauerJobVfx2026 @lv2026amos
+- Wissen über Game-Engines und deren internen Systeme @unrealJob  @microsoftJob @rockstarJobTaAnimation
+  - Unreal Engine 5 @riotJobTaAnim2026 @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobShader2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @techlandJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026 \
+    (12 der 19 Stellen der Stichprobe. Laut #cite(<gdc2026state>, form: "prose") nutzen 42 % der befragten Entwickler:innen primär Unreal, 30 % Unity und 19 % eine proprietäre Engine. Bei AA- und AAA-Studios liegt Unreal mit 59 % bzw. 47 % deutlich vorne. Der Bericht weist selbst darauf hin, dass unklar ist, ob dies eine tatsächliche Verschiebung oder eine Folge der geänderten Befragtengruppe ist.)
+    - aktuelle Systeme wie Nanite, Lumen, das PCG-Framework und Substrate @rockfishJobTa2026 @cgchannel2025ue57
+  - Unity (z. B. URP / HDRP, Shader Graph, VFX Graph) @insomniacJobFacial2026 @epicJobLeadTa2026 @vividJobTa2026 @unity2024unity6
+  - proprietäre Engines (z. B. Snowdrop bei Massive) @epicJobLeadTa2026 @massiveJobUi2026 @avalancheJobProfiling2026
+- Render-Optimierung @chadwick2009 @robinson2018 @riotJobTaRender2026 @twoKJobShader2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @techlandJobTa2026 @avalancheJobProfiling2026 @vividJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026
+  - Performance-Budgets (CPU, GPU, Speicher) definieren und einhalten @epicJobLeadTa2026 @avalancheJobProfiling2026
+  - Optimierung für verschiedene Zielplattformen (PC, Konsole, Mobile) @twoKJobShader2026 @techlandJobTa2026 @vividJobTa2026
+- Tiefer Einblick in den Renderingprozess @gdcGoodman2011 @robinson2018 @riotJobTaRender2026 @epicJobLeadTa2026 @techlandJobTa2026 @avalancheJobProfiling2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026
+- Prozedurale Content-Generierung @robinson2018 @twoKJobShader2026 @epicJobLeadTa2026 @rockstarJobProcedural2026 @eaJobRigging2026
+  - z. B. mit Houdini (Digital Assets, PDG) @epicJobLeadTa2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @sidefx2026embark @lv2026houdiniBridge
+  - z. B. mit dem PCG-Framework der Unreal Engine @cgchannel2025ue57
+- Entwicklung und Verwendung von Reporting-Systemen, um die Performance von Spielen im Auge zu behalten @chadwick2009 @robinson2018 @avalancheJobProfiling2026
+  - Profiling-Tools wie RenderDoc, PIX, Unreal Insights oder der Unity Profiler @riotJobTaRender2026 @epicJobLeadTa2026 @avalancheJobProfiling2026 @vividJobTa2026 @rockfishJobTa2026 @lv2026amos
+- Pipeline-Infrastruktur
+  - Versionskontrolle (z. B. Perforce, Git) @twoKJobRigger2026 @lightspeedJobMotion2025 @lv2026amos @perforce2025report
+  - Build- und Automatisierungssysteme (z. B. Jenkins, Airflow) sowie Paketverwaltung (z. B. Rez, PyPI) @rockstarJobProcedural2026 @lv2026amos
+  - automatische Asset-Validierung @rockfishJobTa2026
+- Physiksimulation @chadwick2009 @gdcLindqvist2011 @riotJobTaAnim2026 @twoKJobRigger2026 @epicJobTechAnim2026
+  - bekannte Engines und deren Verwendung bekannt (wie z. B. Havok) @chadwick2009
   - Wissen über effiziente Physik-Setups @chadwick2009
   - Fehler / Performance-Engpässe in der Physik-Umgebung identifizieren und reparieren können
-
-- Wissen über Game-Engines und deren internen Systeme @unrealJob  @microsoftJob @rockstarJobTaAnimation
-- Dokumentation @chadwick2009 @microsoftJob @rockstarJobTaDevOps
-- Prozedurale Content-Generierung @robinson2018
+  - Charakter-Physik und sekundäre Bewegung (z. B. Jiggle Joints) @riotJobTaAnim2026 @twoKJobRigger2026 @epicJobTechAnim2026
+- KI und Machine Learning in der Pipeline \
+  (in 3 der 19 Stellen der Stichprobe genannt, jeweils als Zusatzqualifikation oder Spezialthema)
+  - KI-gestützte Workflow-Verbesserungen @riotJobTaManager2026
+  - ML-basierte Deformation (Unreal ML Deformer) @lightspeedJobMotion2025
+  - ML-basierte Photogrammetrie (Gaussian Splats, NeRFs) @rockstarJobProcedural2026
+  - Laut #cite(<gdc2026state>, form: "prose") nutzen 36 % der Befragten generative KI-Tools im Job, gleichzeitig sehen 52 % einen negativen Einfluss auf die Branche, im Bereich Visual und Technical Arts sogar 64 %.
+- Dokumentation @chadwick2009 @microsoftJob @rockstarJobTaDevOps @rockstarJobProcedural2026
 
 ==== Soft
 - Interesse am Feld, Trieb zur Eigenrecherche und die Fähigkeit selbstständig zu lernen. @gdcParks2011 @gdcAkesson2011 @gdcLindqvist2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcPletcher2011 @gdcCloward2011 @gdcLong2011 @gdcGoodman2011 @gdcFerguson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018 Dieser Skill wir sehr häufig genannt, da die benötigte Kombination aus Skills meist nie im Ganzen in Bildungseinrichtungen beigebracht wird und die verwendeten Technologien sich ständig wandeln.
