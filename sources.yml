@@ -1,0 +1,488 @@
+indeed2024:
+  type: Web
+  title: '{T}echnical {A}rtist: {D}efinition, {D}uties, {S}kills and {S}alary'
+  author: Indeed Editorial Team
+  date: 2025-03-26
+  url:
+    value: https://www.indeed.com/career-advice/finding-a-job/what-is-technical-artist
+    date: 2025-03-16
+ubisoft2016:
+  type: misc
+  title: Technical Art At Ubisoft
+  author: Ubisoft
+  date: 2025
+  url:
+    value: https://www.youtube.com/watch?v=mJCkPqpn_Zk
+    date: 2025-03-16
+chadwick2009:
+  type: misc
+  title: Technical Artist Guidlines
+  author:
+  - Chadwick, Eric
+  - McClure, Ryan
+  date: 2025
+  url:
+    value: https://ericchadwick.com/img/techart_guidelines.html
+    date: 2025-03-16
+unityCerts2024:
+  type: misc
+  title: Unity Certifications
+  author: Unity
+  date: 2025
+  url:
+    value: https://unity.com/products/unity-certifications
+    date: 2025-03-22
+klos2023:
+  type: misc
+  title: What makes a good technical art portfolio
+  author: Klos, Nina
+  date: 2023-07-07
+  url:
+    value: https://www.youtube.com/watch?v=x0hFSdfOM2s
+    date: 2025-03-22
+unityCertsTA2025:
+  type: misc
+  title: Technical Artist -Beta Testers Needed
+  author: Unity
+  date: 2025
+  url:
+    value: https://create.unity.com/technicalartist
+    date: 2025-03-22
+
+
+gdcHanna2011:
+  type: misc
+  title: 01-Tech Artists - Jeff Hanna - GDC11
+  author: Hanna, Jeff
+  date: 2011-03-07
+  url:
+    value: https://www.youtube.com/watch?v=4QiKJBriBoc
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+    
+gdcParks2011:
+  type: misc
+  title: 02- Tech Artists - Jason Parks - GDC11
+  author: Parks, Jason
+  date: 2011-03-08
+  url:
+    value: https://www.youtube.com/watch?v=-RPc8B6I-ik
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcAkesson2011:
+  type: misc
+  title: 03-Tech Artists - Christian Akesson - GDC11
+  author: Akesson, Christian
+  date: 2011-03-08
+  url:
+    value: https://www.youtube.com/watch?v=OMVUCamx5Ms
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcLindqvist2011:
+  type: misc
+  title: 04 -Tech Artists - Erik Lindqvist - GDC11
+  author: Lindqvist, Erik
+  date: 2011-03-08
+  url:
+    value: https://www.youtube.com/watch?v=092InOP8oqA
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcGibson2011:
+  type: misc
+  title: 05 -Tech Artists - Seth Gibson - GDC11
+  author: Gibson, Seth
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=xflGiJ09n5I
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcGrimes2011:
+  type: misc
+  title: 06 - Tech Artists - Bronwen Grimes - GDC11
+  author: Grimes, Bronwen
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=OB1qF1ouBlQ
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcNielsen2011:
+  type: misc
+  title: 07 - Tech Artists - Martin Nielsen- GDC11
+  author: Nielsen, Martin
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=jbMYhbrkNZQ
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcGalanakis2011:
+  type: misc
+  title: 08 - Tech Artists - Rob Galanakis - GDC11
+  author: Galanakis, Rob
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=Ru00dHVcgP8
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcPletcher2011:
+  type: misc
+  title: 09 - Tech Artists - Adam Pletcher - GDC11
+  author: Pletcher, Adam
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=n6pHnt27kjc
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcHarbor2011:
+  type: misc
+  title: 10 - Tech Artists - Scott Harbor - GDC11
+  author: Harbor, Scott
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=rzcrAKC0dyc
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcCloward2011:
+  type: misc
+  title: 11 - Tech Artists - Ben Cloward - GDC11
+  author: Cloward, Ben
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=zNY6tNfwC3w
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcGoodman2011:
+  type: misc
+  title: 12 - Tech Artists - Craig Goodman - GDC11
+  author: Goodman, Craig
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=IqqA1J2RXWU
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcFerguson2011:
+  type: misc
+  title: 13-Tech Artists - John Ferguson - GDC.mov
+  author: Ferguson, John
+  date: 2011-03-12
+  url:
+    value: https://www.youtube.com/watch?v=bG6URvYtAGc
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcHash2011:
+  type: misc
+  title: 14 - Tech Artists - Chelsea Hash - GDC
+  author: Hash, Chelsea
+  date: 2011-03-13
+  url:
+    value: https://www.youtube.com/watch?v=ZhEK3G-TgFU
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcButterworth2011:
+  type: misc
+  title: 15 - Tech Artists - Rob Butterworth - GDC
+  author: Butterworth, Rob
+  date: 2011-03-13
+  url:
+    value: https://www.youtube.com/watch?v=NaH6EH0gHM8
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcDecker2011:
+  type: misc
+  title: 16 - Tech Artists - Heather Decker - GDC
+  author: Decker, Heather
+  date: 2011-03-13
+  url:
+    value: https://www.youtube.com/watch?v=a0Vr_uHMObg
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcGood2011:
+  type: misc
+  title: 17 - Tech Artists - Tyler Good - GDC.mov
+  author: Good, Tyler
+  date: 2011-03-14
+  url:
+    value: https://www.youtube.com/watch?v=o-vC7mYStHY
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+gdcLong2011:
+  type: misc
+  title: 18 - Tech Artists - Tom Long -GDC11
+  author: Long, Tom
+  date: 2011-03-09
+  url:
+    value: https://www.youtube.com/watch?v=9jaA6iscflw
+    date: 2025-03-16
+  parent:
+    type: misc
+    title: opcode6 (Crosbie, Bill)
+    url: https://www.youtube.com/@opcode6
+    author: Crosbie, Bill
+
+    
+acegikmo2025:
+  type: blog
+  title: '{F}reya''s {S}tuff'
+  author: Homér, Freya
+  # date: 2025
+  url:
+    value: https://cat.gay/
+    date: 2025-03-16
+grimes2012:
+  type: blog
+  title: 'Bronwen Grimes'
+  author: Grimes, Bronwen 
+  date: 2012
+  url:
+    value: https://bronwengrimes.com/
+    date: 2025-04-06
+quilez2025:
+  type: blog
+  title: '{I}ngo {Q}uilez'
+  author: Quilez, Ingo
+  date: 2025
+  url:
+    value: https://iquilezles.org/
+    date: 2025-03-16
+acerola2025:
+  type: blog
+  title: '{GarretGunnell (Acerola) - Github}'
+  author: Gunnell, Garrett
+  date: 2025
+  url:
+    value: https://github.com/GarrettGunnell
+    date: 2025-03-16
+expiredpopsicle:
+  type: blog
+  title: Resume
+  author: Jolly, Kiri
+  date: 2025
+  url:
+    value: https://expiredpopsicle.com/resume.html
+    date: 2025-03-16
+cloward2025:
+  type: blog
+  title: Ben Cloward - Technical Artist
+  author: Cloward, Ben
+  date: 2025
+  url:
+    value: https://bencloward.com/portfolio.shtml
+    date: 2025-03-16
+clowardPort2025:
+  type: blog
+  title: Ben Cloward - Technical Artist | Portfolio
+  author: Cloward, Ben
+  date: 2025
+  url:
+    value: https://www.bencloward.com/portfolio.shtml
+    date: 2025-04-06
+wolf2025:
+  type: blog
+  title: Wolf van Veen - Technical Artist
+  author: Wolf van Veen
+  date: 2025
+  url:
+    value: https://wolfvanveen.art/
+    date: 2025-04-06
+
+robinson2018:
+  type: misc
+  title: Jobs in Unreal Engine - Technical Artist
+  author: Robinson, Melissa
+  date: 2018-11-12
+  url:
+    value: https://www.unrealengine.com/en-US/tech-blog/jobs-in-unreal-engine---technical-artist
+    date: 2025-04-07
+
+hawes2025:
+  type: misc
+  title: MY TOP 5 PORTFOLIO TIPS – TECHNICAL ART
+  author: Hawes, Stephen
+  date: 2025
+  url: 
+    value: https://www.massive.se/blog/news/my-top-5-portfolio-tips-technical-art/
+    date: 2025-04-07
+
+riot2018:
+  type: misc
+  title: So You Wanna Make Games?? | Episode 5{:} Technical Art 
+  author: Riot Games
+  date: 2018-12-13
+  url:
+    value: https://www.youtube.com/watch?v=kr7XYXMM7-U
+    date: 2025-04-09
+
+unrealJob:
+  type: misc
+  title: Unreal Engine (Technical Artist)
+  author: Unreal Staffing
+  date: 2024
+  url: 
+    value: https://www.unrealstaffing.com/job-positions/unreal-engine-technical-artist
+    date: 2025-04-13
+
+rockstarJobTaAnimation:
+  type: misc
+  title: Principal Technical Artist{:} Animation
+  author: Rockstar Games
+  date: 2025
+  url:
+    value: https://www.rockstargames.com/careers/openings/position/6232678003
+    date: 2025-04-13
+
+rockstarJobTaDevOps:
+  type: misc
+  title: Technical Artist{:} DevOps
+  author: Rockstar Games
+  date: 2025
+  url:
+    value: https://www.rockstargames.com/careers/openings/position/6541520003
+    date: 2025-04-13
+
+microsoftJob:
+  type: misc
+  title: Senior Graphics Technical Artist
+  author: Microsoft
+  date: 2025
+  url:
+    value: https://jobs.careers.microsoft.com/global/en/job/1806754/Senior-Graphics-Technical-Artist
+    date: 2025-04-13
+
+riotJob:
+  type: misc
+  title: Senior Technical Artist (Rendering) - VALORANT, UI/UX
+  author: Riot Games
+  date: 2025
+  url:
+    value: https://www.riotgames.com/en/work-with-us/job/6531349/senior-technical-artist-rendering-valorant-ui-ux-los-angeles-usa
+    date: 2025-04-13
+
+
+chasingCarrots2025:
+  type: misc
+  title: Chasing Carrots - Delicious Game Creations
+  author: Chasing Carrots
+  date: 2025
+  url:
+    value: https://www.chasing-carrots.com/
+    date: 2025-04-13
+
+innogames2025:
+  type: misc
+  title: InnoGames
+  author: InnoGames GmbH
+  date: 2025
+  url:
+    value: https://www.innogames.com/
+    date: 2025-04-13
+
+kalypso2025:
+  type: misc
+  title: Kalypso
+  author: Kalypso Media Group GmbH
+  date: 2024
+  url: 
+    value: https://www.kalypsomedia.com/jobs
+    date: 2025-04-13
+
+massive2025:
+  type: misc
+  title: Students & Internships - Develop your Skills for the Future
+  author: Massive Entertainment - a Ubisoft Studio
+  date: 2025
+  url:
+    value: https://www.massive.se/career/students-internships/
+    date: 2025-04-13
+
+dice2025:
+  type: misc
+  title: Students - DICE Studios
+  author: Electronic Arts Inc.
+  date: 2023
+  url:
+    value: https://www.dice.se/students
+    date: 2025-04-13
+
+axolot2024:
+  type: misc
+  title: Axolot Games | Careers
+  author: Axolot Games
+  date: 2024
+  url:
+    value: https://www.axolotgames.com/careers
+    date: 2025-04-13
+
+arrowheadInternship:
+  type: misc
+  title: REcruitment, Jobs & Open Positions - Arrowhead Games Studios
+  author: Arrowhead Games Studios
+  url:
+    value: https://jobs.arrowheadgamestudios.com
+    date: 2025-04-13
