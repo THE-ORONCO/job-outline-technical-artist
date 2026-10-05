@@ -49,7 +49,6 @@ unityCertsTA2025:
     value: https://create.unity.com/technicalartist
     date: 2025-03-22
 
-
 gdcHanna2011:
   type: misc
   title: 01-Tech Artists - Jeff Hanna - GDC11
@@ -424,7 +423,6 @@ riotJob:
     value: https://www.riotgames.com/en/work-with-us/job/6531349/senior-technical-artist-rendering-valorant-ui-ux-los-angeles-usa
     date: 2025-04-13
 
-
 chasingCarrots2025:
   type: misc
   title: Chasing Carrots - Delicious Game Creations
@@ -669,7 +667,6 @@ weltenbauerJobVfx2026:
     value: https://weltenbauer-software-entwicklung-gmbh.jobs.personio.de/job/2692775
     date: 2026-10-05
 
-
 # --- Artikel, Berichte und Talks (2024-2026) ---
 
 cgchannel2025ue57:
@@ -746,42 +743,6 @@ lv2026houdiniBridge:
     value: https://80.lv/articles/creating-a-houdini-tool-that-generates-stylized-bridges-for-unreal-engine-5
     date: 2026-10-05
 
-techartists2025pyside:
-  type: misc
-  title: Maintaining Maya PySide2/PySide6 Compatibility
-  author: ChemiKhazi
-  date: 2025-09-17
-  url:
-    value: https://www.tech-artists.org/t/maintaining-maya-pyside2-pyside6-compatibility/18178
-    date: 2026-10-05
-
-gamedev2026genai:
-  type: misc
-  title: Developer use of generative AI may be declining
-  author: Francis, Bryant
-  date: 2026-03-06
-  url:
-    value: https://www.gamedeveloper.com/production/developer-use-of-generative-ai-may-be-declining
-    date: 2026-10-05
-
-gdc2025state:
-  type: misc
-  title: 'GDC 2025 State of the Game Industry: Devs Weigh in on Layoffs, AI, and More'
-  author: Elderkin, Beth
-  date: 2025-03
-  url:
-    value: https://gdconf.com/article/gdc-2025-state-of-the-game-industry-devs-weigh-in-on-layoffs-ai-and-more/
-    date: 2026-10-05
-
-gamedevreports2026:
-  type: misc
-  title: 'GDC: The State of the Game Industry - 2026'
-  author: GameDev Reports
-  date: 2026-02-16
-  url:
-    value: https://gamedevreports.substack.com/p/gdc-the-state-of-the-game-industry-fcf
-    date: 2026-10-05
-
 perforce2025report:
   type: misc
   title: 2025 State of Game Technology Report (Herstellerumfrage)
@@ -790,3 +751,12 @@ perforce2025report:
   url:
     value: https://www.perforce.com/press-releases/state-of-game-technology-report-2025
     date: 2026-10-05
+
+gdc2026state:
+  type: report
+  title: 2026 State of the Game Industry
+  author:
+  - Elderkin, Beth
+  - Ball, Cheryl
+  organization: GDC Festival of Gaming (Informa) in Zusammenarbeit mit Omdia
+  date: 2026-01
