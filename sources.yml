@@ -716,6 +716,7 @@ storm2026usd:
     value: https://rystorm.com/blog/openusd-roundtable-gdc-2026
     date: 2026-10-05
 
+# TODO remove probably
 ubisoft2025chord:
   type: misc
   title: 'Generative Base Material: An Open-Source Prototype for PBR Material Estimation'

@@ -98,6 +98,7 @@ Als Brücke zwischen der artistischen und technischen Seite der Spieleentwicklun
   
 == Karrierepfad
 Der tatsächliche Karrierepfad eines @TA:pl kann sehr unterschiedlich ausfallen. Meistens entwickelt sich ein @TA aus einer Person mit einem technischen oder artistischen Hintergrund. @TA:pl können sind hierbei in Bereichen wie Rigging,  Animation, Lighting/Shading, Shaders, Texturing, Special-FX, Pipeline-Management, Tool-Entwicklung, Simulationen und vielem mehr spezialisieren. @robinson2018 @riot2018
+Aktuelle Stellenausschreibungen (Stand 2026) zeigen darüber hinaus eigenständige Spezialisierungen wie prozedurale Content-Erstellung @rockstarJobProcedural2026 @techlandJobHoudini2026, Performance-Profiling @avalancheJobProfiling2026, UI @massiveJobUi2026, Echtzeit-VFX @weltenbauerJobVfx2026 sowie Facial- und Motion-Rigging @insomniacJobFacial2026 @lightspeedJobMotion2025.
 Ein paar der Optionen sind in @career-path aufgeführt. 
 
 #figure(
@@ -121,15 +122,26 @@ digraph G {
       TAT [label="Tooling"]
       TAS [label="Shader"]
       TASim [label="Simulation"]
+      TAProc [label="Procedural"]
+      TAVFX [label="VFX"]
+      TAPerf [label="Performance /\nProfiling"]
+      TAUI [label="UI"]
+      TAFace [label="Facial / Motion"]
       TAO [label="..."]
     }
-    
+
     TA -> TAR
     TA -> TAP
-    TA -> TAO
     TA -> TAT
     TA -> TAS
     TA -> TASim
+    // zweite Reihe, damit die Grafik nicht zu breit wird
+    TAR -> TAProc [style=invis]
+    TAP -> TAVFX [style=invis]
+    TAT -> TAPerf [style=invis]
+    TAS -> TAUI [style=invis]
+    TASim -> TAFace [style=invis]
+    TASim -> TAO [style=invis]
 
     P [label="Game Programmer"];
     A [label="Game Artist"];
@@ -146,7 +158,7 @@ digraph G {
 
   }
   ```, 
-  height: 15em,
+  height: 20em,
   engine: "dot"
 )
   ],
@@ -158,7 +170,7 @@ digraph G {
 Aus Interviews von @gdcAkesson2011, @gdcButterworth2011, @gdcCloward2011, @gdcDecker2011, @gdcFerguson2011, @gdcFerguson2011, @gdcGalanakis2011, @gdcGibson2011, @gdcGibson2011, @gdcGood2011, @gdcGoodman2011, @gdcGrimes2011, @gdcHanna2011, @gdcHarbor2011, @gdcHarbor2011, @gdcHash2011, @gdcLindqvist2011, @gdcLong2011, @gdcLong2011, @gdcNielsen2011, @gdcParks2011 und @gdcPletcher2011 durch Crossbie geht hervor, dass ein @TA eine Rolle ist, die sich aktiv aus Anforderungen an eine effizientere Assetverarbeitung entwickelt. Wie diese Entwicklung tatsächlich passiert, fällt sehr unterschiedlich aus. 
 #set cite(form: "normal")
 
-Es gibt Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob@riotJob), diese sind aber meist für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
+Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Eine Stichprobe von 20 aktuellen Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<current-jobs>)[Jobs]) bestätigt dieses Bild: 13 der 20 Stellen sind als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
 
 == Skills
 Ein @TA benötigten Skills sowohl von der technische als auch von der künstlerischen Seite des Game-Developments. Da der Einstieg in die Industrie überwiegend nur über die initiale Anstellung als Artist oder als Programmierer möglich ist, werden im Folgenden die Skills erst einmal separat aufgeschlüsselt. Um tatsächlich als @TA arbeiten zu können, werden ein Großteil der Skills aus beiden Kategorien benötigt. Außerdem werden auch weitere, @TA spezifische, Skills benötigt, die an letzter Stelle im Kapitel aufgelistet werden.
@@ -343,4 +355,7 @@ Im Folgenden werden ein paar Stellenausschreibungen aufgeführt.
   image("job-images/senior-technical-artist-rendering-riot.png",height: 23cm),
   caption: [Jobangebot als Technical Artist bei Riot mit Fokus auf Rendering und UI/UX @riotJob],
 )
+=== Aktuelle Stellenausschreibungen (Stand 05.10.2026) <current-jobs>
+// TODO Schritt 2h: Übersichtstabelle + Screenshots
+
 #bibliography("sources.yml", style: "apa") 
