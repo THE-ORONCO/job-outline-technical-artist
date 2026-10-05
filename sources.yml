@@ -599,18 +599,10 @@ techlandJobTa2026:
   type: misc
   title: Technical Artist
   author: Techland
-  date: 2026
+  date: 2026-02-06
+  note: am 05.10.2026 nicht mehr aktiv
   url:
     value: https://techland.net/job-offers/technical-artist
-    date: 2026-10-05
-
-techlandJobHoudini2026:
-  type: misc
-  title: Houdini Technical Artist
-  author: Techland
-  date: 2026
-  url:
-    value: https://techland.net/job-offers/houdini-technical-artist-72
     date: 2026-10-05
 
 avalancheJobProfiling2026:
@@ -661,7 +653,8 @@ welevelJobTa2026:
 weltenbauerJobVfx2026:
   type: misc
   title: Tech Artist VFX (w/m/d)
-  author: weltenbauer. Software Entwicklung GmbH
+  author:
+    name: weltenbauer. Software Entwicklung GmbH
   date: 2026
   url:
     value: https://weltenbauer-software-entwicklung-gmbh.jobs.personio.de/job/2692775

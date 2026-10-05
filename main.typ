@@ -98,7 +98,7 @@ Als Brücke zwischen der artistischen und technischen Seite der Spieleentwicklun
   
 == Karrierepfad
 Der tatsächliche Karrierepfad eines @TA:pl kann sehr unterschiedlich ausfallen. Meistens entwickelt sich ein @TA aus einer Person mit einem technischen oder artistischen Hintergrund. @TA:pl können sind hierbei in Bereichen wie Rigging,  Animation, Lighting/Shading, Shaders, Texturing, Special-FX, Pipeline-Management, Tool-Entwicklung, Simulationen und vielem mehr spezialisieren. @robinson2018 @riot2018
-Aktuelle Stellenausschreibungen (Stand 2026) zeigen darüber hinaus eigenständige Spezialisierungen wie prozedurale Content-Erstellung @rockstarJobProcedural2026 @techlandJobHoudini2026, Performance-Profiling @avalancheJobProfiling2026, UI @massiveJobUi2026, Echtzeit-VFX @weltenbauerJobVfx2026 sowie Facial- und Motion-Rigging @insomniacJobFacial2026 @lightspeedJobMotion2025.
+Aktuelle Stellenausschreibungen (Stand 2026) zeigen darüber hinaus eigenständige Spezialisierungen wie prozedurale Content-Erstellung @rockstarJobProcedural2026, Performance-Profiling @avalancheJobProfiling2026, UI @massiveJobUi2026, Echtzeit-VFX @weltenbauerJobVfx2026 sowie Facial- und Motion-Rigging @insomniacJobFacial2026 @lightspeedJobMotion2025.
 Ein paar der Optionen sind in @career-path aufgeführt. 
 
 #figure(
@@ -170,7 +170,7 @@ digraph G {
 Aus Interviews von @gdcAkesson2011, @gdcButterworth2011, @gdcCloward2011, @gdcDecker2011, @gdcFerguson2011, @gdcFerguson2011, @gdcGalanakis2011, @gdcGibson2011, @gdcGibson2011, @gdcGood2011, @gdcGoodman2011, @gdcGrimes2011, @gdcHanna2011, @gdcHarbor2011, @gdcHarbor2011, @gdcHash2011, @gdcLindqvist2011, @gdcLong2011, @gdcLong2011, @gdcNielsen2011, @gdcParks2011 und @gdcPletcher2011 durch Crossbie geht hervor, dass ein @TA eine Rolle ist, die sich aktiv aus Anforderungen an eine effizientere Assetverarbeitung entwickelt. Wie diese Entwicklung tatsächlich passiert, fällt sehr unterschiedlich aus. 
 #set cite(form: "normal")
 
-Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Eine Stichprobe von 20 aktuellen Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<current-jobs>)[Jobs]) bestätigt dieses Bild: 13 der 20 Stellen sind als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
+Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Eine Stichprobe von 19 aktuellen Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<current-jobs>)[Jobs]) bestätigt dieses Bild: 13 der 19 Stellen sind als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
 
 == Skills
 Ein @TA benötigten Skills sowohl von der technische als auch von der künstlerischen Seite des Game-Developments. Da der Einstieg in die Industrie überwiegend nur über die initiale Anstellung als Artist oder als Programmierer möglich ist, werden im Folgenden die Skills erst einmal separat aufgeschlüsselt. Um tatsächlich als @TA arbeiten zu können, werden ein Großteil der Skills aus beiden Kategorien benötigt. Außerdem werden auch weitere, @TA spezifische, Skills benötigt, die an letzter Stelle im Kapitel aufgelistet werden.
@@ -180,21 +180,27 @@ In keiner Quelle lässt sich eine komplette Liste an nötigen Skills finden, die
 Die folgenden Listen sollten also eher als Guidelines gesehen werden. Dennoch gibt es Skills, die häufiger aufgeführt wurden als andere. Entsprechend der Häufigkeit sind die Listen sortiert. 
 
 === Programmierer
-- Scripting & Coding, um selbst Tools, Shader etc. zu entwickeln oder mit Skripten verschiedenste Dinge zu automatisieren. @indeed2024 @gdcParks2011 @gdcAkesson2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcLong2011 @gdcHash2011 @gdcGood2011  @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps hierbei kann es sich zum Beispiel um folgende Sprachen handeln:
-  - Python @chadwick2009 @gdcParks2011 @gdcGalanakis2011 @gdcCloward2011 @gdcButterworth2011 @gdcGood2011 @robinson2018 @riotJob
+- Scripting & Coding, um selbst Tools, Shader etc. zu entwickeln oder mit Skripten verschiedenste Dinge zu automatisieren. @indeed2024 @gdcParks2011 @gdcAkesson2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcLong2011 @gdcHash2011 @gdcGood2011  @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @epicJobLeadTa2026 @riotJobTaManager2026 @vividJobTa2026 @avalancheJobProfiling2026 @rockfishJobTa2026 @weltenbauerJobVfx2026 hierbei kann es sich zum Beispiel um folgende Sprachen handeln:
+  - Python @chadwick2009 @gdcParks2011 @gdcGalanakis2011 @gdcCloward2011 @gdcButterworth2011 @gdcGood2011 @robinson2018 @riotJob @riotJobTaAnim2026 @riotJobTaManager2026 @twoKJobRigger2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @eaJobRigging2026 @rockfishJobTa2026 @weltenbauerJobVfx2026
+    - Qt / PySide für Benutzeroberflächen von Artist-Tools @riotJobTaManager2026 @twoKJobRigger2026 @eaJobRigging2026
   - MaxScript @chadwick2009 @gdcHanna2011 @gdcGalanakis2011 @gdcCloward2011 @gdcDecker2011 @robinson2018
-  - C\# / .NET @chadwick2009 @gdcGalanakis2011 @gdcHash2011 @rockstarJobTaAnimation
-  - C++ @gdcGibson2011 @rockstarJobTaAnimation
+  - C\# / .NET @chadwick2009 @gdcGalanakis2011 @gdcHash2011 @rockstarJobTaAnimation @epicJobLeadTa2026 @lightspeedJobTa2026 @vividJobTa2026
+  - C++ @gdcGibson2011 @rockstarJobTaAnimation @epicJobLeadTa2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @techlandJobTa2026 @avalancheJobProfiling2026 @weltenbauerJobVfx2026
+    - in aktuellen Ausschreibungen häufig nur als „Plus“ oder auf dem Niveau, bestehenden Engine-Code lesen und nachvollziehen zu können @techlandJobTa2026 @avalancheJobProfiling2026
   - C @gdcFerguson2011
+  - Visual Scripting (z. B. Unreal Blueprints) @riotJobTaAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @techlandJobTa2026 @rockfishJobTa2026 @weltenbauerJobVfx2026
   - JavaScript @chadwick2009 @gdcHash2011
+  - VEX (Houdini) @lv2026houdiniBridge
 
 - Mathematik für Grafikprogrammierung @gdcGoodman2011
-  - lineare Algebra / 3D-Mathematik (Vektor, Matrix, Euler-Winkel, Quaternion etc.) @gdcLindqvist2011 @gdcCloward2011 @gdcFerguson2011 @chadwick2009 @gdcHanna2011 @gdcParks2011 @gdcLindqvist2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcHarbor2011 @gdcCloward2011 @gdcGibson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018
+  - lineare Algebra / 3D-Mathematik (Vektor, Matrix, Euler-Winkel, Quaternion etc.) @lightspeedJobTa2026 @rockfishJobTa2026 @gdcLindqvist2011 @gdcCloward2011 @gdcFerguson2011 @chadwick2009 @gdcHanna2011 @gdcParks2011 @gdcLindqvist2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcHarbor2011 @gdcCloward2011 @gdcGibson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018
   - Trigonometrie @gdcHash2011 @gdcDecker2011 @robinson2018
-  - Infinitesimalrechnung @gdcGrimes2011 @gdcDecker2011
+  - Infinitesimalrechnung @gdcGrimes2011 @gdcDecker2011 @lightspeedJobTa2026
   - Inverse- / Forwards-Kinematik @gdcGalanakis2011
 
-- Shader-Programmierung @chadwick2009 @gdcHanna2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcHarbor2011 @gdcCloward2011 @gdcGibson2011 @gdcGoodman2011 @gdcFerguson2011 @robinson2018 @riotJob
+- Shader-Programmierung @chadwick2009 @gdcHanna2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcHarbor2011 @gdcCloward2011 @gdcGibson2011 @gdcGoodman2011 @gdcFerguson2011 @robinson2018 @riotJob @riotJobTaRender2026 @twoKJobShader2026 @epicJobLeadTa2026 @lightspeedJobTa2026 @massiveJobUi2026 @techlandJobTa2026 @avalancheJobProfiling2026 @vividJobTa2026 @rockfishJobTa2026 @weltenbauerJobVfx2026
+  - HLSL / GLSL @riotJobTaRender2026 @twoKJobShader2026 @lightspeedJobTa2026 @massiveJobUi2026 @avalancheJobProfiling2026 @vividJobTa2026 @weltenbauerJobVfx2026
+  - node-basierte Material- und Shader-Editoren (z. B. Unreal Material Editor / Substrate, Unity Shader Graph) @riotJobTaRender2026 @twoKJobShader2026 @vividJobTa2026 @cgchannel2025ue57 @unity2024unity6
 
 - Sofware-Design-Muster, um gute und instand haltbare Software zu designen @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation
 
