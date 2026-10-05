@@ -486,3 +486,307 @@ arrowheadInternship:
   url:
     value: https://jobs.arrowheadgamestudios.com
     date: 2025-04-13
+
+# --- Stellenausschreibungen, Stichprobe Stand 2026-10-05 ---
+
+riotJobTaAnim2026:
+  type: misc
+  title: Senior Technical Artist, Animation - Unpublished R&D Product (Shanghai)
+  author: Riot Games
+  date: 2026
+  url:
+    value: https://www.riotgames.com/en/j/8082804
+    date: 2026-10-05
+
+riotJobTaRender2026:
+  type: misc
+  title: Rendering Technical Artist - Unpublished R&D Product (Shanghai)
+  author: Riot Games
+  date: 2026
+  url:
+    value: https://www.riotgames.com/en/j/7102244
+    date: 2026-10-05
+
+riotJobTaManager2026:
+  type: misc
+  title: Technical Art Manager - Unpublished R&D Product (Sydney)
+  author: Riot Games
+  date: 2026
+  url:
+    value: https://www.riotgames.com/en/j/8001082
+    date: 2026-10-05
+
+twoKJobShader2026:
+  type: misc
+  title: Senior Shader Technical Artist
+  author: 2K
+  date: 2026-09-29
+  url:
+    value: https://job-boards.greenhouse.io/2k/jobs/8007755003
+    date: 2026-10-05
+
+twoKJobRigger2026:
+  type: misc
+  title: Senior Technical Artist (Rigger) - NBA 2K
+  author: 2K
+  date: 2026-08-26
+  url:
+    value: https://job-boards.greenhouse.io/2k/jobs/7978391003
+    date: 2026-10-05
+
+insomniacJobFacial2026:
+  type: misc
+  title: Senior Facial Character TD (Contract)
+  author: Insomniac Games
+  date: 2026-08-23
+  url:
+    value: https://job-boards.greenhouse.io/insomniac/jobs/6143980004
+    date: 2026-10-05
+
+epicJobLeadTa2026:
+  type: misc
+  title: Lead Technical Artist
+  author: Epic Games
+  date: 2026-09-29
+  url:
+    value: https://epicgames.com/careers/jobs/6201355004
+    date: 2026-10-05
+
+epicJobTechAnim2026:
+  type: misc
+  title: Lead Technical Animator
+  author: Epic Games
+  date: 2026-09-29
+  url:
+    value: https://epicgames.com/careers/jobs/6203696004
+    date: 2026-10-05
+
+lightspeedJobTa2026:
+  type: misc
+  title: Senior Technical Artist (Irvine)
+  author: Tencent LightSpeed Studios
+  date: 2026-09-29
+  url:
+    value: https://tencent.wd1.myworkdayjobs.com/Lightspeed/job/US-California-Irvine/Senior-Technical-Artist_R108153
+    date: 2026-10-05
+
+lightspeedJobMotion2025:
+  type: misc
+  title: Motion Technical Artist (Osaka / Tokyo)
+  author: Tencent LightSpeed Studios
+  date: 2025-09-15
+  url:
+    value: https://tencent.wd1.myworkdayjobs.com/Lightspeed/job/Japan-Osaka/-Motion-Technical-Artist_R105686-2
+    date: 2026-10-05
+
+rockstarJobProcedural2026:
+  type: misc
+  title: Senior Technical Artist - Procedural Art (Leeds)
+  author: Rockstar Games
+  date: 2026-04-08
+  url:
+    value: https://job-boards.greenhouse.io/rockstargames/jobs/7694184003
+    date: 2026-10-05
+
+massiveJobUi2026:
+  type: misc
+  title: Senior UI Technical Artist (Tom Clancy's The Division 2 - Survivors)
+  author: Ubisoft Massive Entertainment
+  date: 2026-09-03
+  url:
+    value: https://jobs.smartrecruiters.com/Ubisoft2/744000147277289
+    date: 2026-10-05
+
+techlandJobTa2026:
+  type: misc
+  title: Technical Artist
+  author: Techland
+  date: 2026
+  url:
+    value: https://techland.net/job-offers/technical-artist
+    date: 2026-10-05
+
+techlandJobHoudini2026:
+  type: misc
+  title: Houdini Technical Artist
+  author: Techland
+  date: 2026
+  url:
+    value: https://techland.net/job-offers/houdini-technical-artist-72
+    date: 2026-10-05
+
+avalancheJobProfiling2026:
+  type: misc
+  title: Senior Technical Artist (Profiling) - Fixed Term
+  author: Avalanche Studios Group
+  date: 2026
+  url:
+    value: https://jobs.lever.co/avalanchestudios/4f61b95e-2bb4-4fa1-a503-b1660a5df114
+    date: 2026-10-05
+
+eaJobRigging2026:
+  type: misc
+  title: Technical Artist - Rigging and Animation - EA SPORTS F1
+  author: Electronic Arts (Codemasters)
+  date: 2026
+  url:
+    value: https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-Rigging-and-Animation-EA-SPORTS-F1/216017
+    date: 2026-10-05
+
+vividJobTa2026:
+  type: misc
+  title: Senior Technical Artist (Remote, Hybrid or On-site)
+  author: Vivid Games
+  date: 2026-09-09
+  url:
+    value: https://jobs.vividgames.com/jobs/8351271-senior-technical-artist-remote-hybrid-or-on-site
+    date: 2026-10-05
+
+rockfishJobTa2026:
+  type: misc
+  title: Technical Artist (f/m/d)
+  author: ROCKFISH Games
+  date: 2026
+  url:
+    value: https://rockfishgames.com/jobs/
+    date: 2026-10-05
+
+welevelJobTa2026:
+  type: misc
+  title: Senior Unreal Technical Artist (m/f/d)
+  author: welevel
+  date: 2026
+  url:
+    value: https://career.welevel.com/jobs/senior-unreal-technical-artist-m-f-d
+    date: 2026-10-05
+
+weltenbauerJobVfx2026:
+  type: misc
+  title: Tech Artist VFX (w/m/d)
+  author: weltenbauer. Software Entwicklung GmbH
+  date: 2026
+  url:
+    value: https://weltenbauer-software-entwicklung-gmbh.jobs.personio.de/job/2692775
+    date: 2026-10-05
+
+
+# --- Artikel, Berichte und Talks (2024-2026) ---
+
+cgchannel2025ue57:
+  type: misc
+  title: Unreal Engine 5.7 is here - see five key features for CG artists
+  author: Thacker, Jim
+  date: 2025-11-12
+  url:
+    value: https://www.cgchannel.com/2025/11/unreal-engine-5-7-five-key-features-for-cg-artists/
+    date: 2026-10-05
+
+unity2024unity6:
+  type: misc
+  title: Unity 6 Graphics Learning Resources
+  author: Unity Technologies
+  date: 2024-11-14
+  url:
+    value: https://unity.com/blog/unity-6-graphics-learning-resources
+    date: 2026-10-05
+
+siggraph2025advances:
+  type: misc
+  title: Advances in Real-Time Rendering in Games, SIGGRAPH 2025
+  author: Tatarchuk, Natalya
+  date: 2025-08-12
+  url:
+    value: https://advances.realtimerendering.com/s2025/index.html
+    date: 2026-10-05
+
+sidefx2026embark:
+  type: misc
+  title: 'Freedom Through Structure: Character Pipelines at Embark (GDC 2026)'
+  author:
+  - Östsjö, Erik
+  - Arvidsson, Björn
+  date: 2026-03-10
+  url:
+    value: https://www.sidefx.com/community/gdc-2026/
+    date: 2026-10-05
+
+storm2026usd:
+  type: misc
+  title: Notes of the OpenUSD Roundtables at GDC 2026
+  author: Storm, Robin-Yann
+  date: 2026-07-07
+  url:
+    value: https://rystorm.com/blog/openusd-roundtable-gdc-2026
+    date: 2026-10-05
+
+ubisoft2025chord:
+  type: misc
+  title: 'Generative Base Material: An Open-Source Prototype for PBR Material Estimation'
+  author: Ubisoft La Forge
+  date: 2025-12-09
+  url:
+    value: https://www.ubisoft.com/en-us/studio/laforge/news/1i3YOvQX2iArLlScBPqBZs/generative-base-material-an-opensource-prototype-for-pbr-material-estimation-debuting-at-siggraph-asia-2025
+    date: 2026-10-05
+
+lv2026amos:
+  type: misc
+  title: Technical Artist on Building Tools, Pipelines, and Blending Art with Engineering
+  author: Jagneaux, David
+  date: 2026-05-20
+  url:
+    value: https://80.lv/articles/technical-artist-on-building-tools-pipelines-and-blending-art-with-engineering
+    date: 2026-10-05
+
+lv2026houdiniBridge:
+  type: misc
+  title: Creating a Houdini Tool That Generates Stylized Bridges for Unreal Engine 5
+  author: Collins, Emma
+  date: 2026-04-16
+  url:
+    value: https://80.lv/articles/creating-a-houdini-tool-that-generates-stylized-bridges-for-unreal-engine-5
+    date: 2026-10-05
+
+techartists2025pyside:
+  type: misc
+  title: Maintaining Maya PySide2/PySide6 Compatibility
+  author: ChemiKhazi
+  date: 2025-09-17
+  url:
+    value: https://www.tech-artists.org/t/maintaining-maya-pyside2-pyside6-compatibility/18178
+    date: 2026-10-05
+
+gamedev2026genai:
+  type: misc
+  title: Developer use of generative AI may be declining
+  author: Francis, Bryant
+  date: 2026-03-06
+  url:
+    value: https://www.gamedeveloper.com/production/developer-use-of-generative-ai-may-be-declining
+    date: 2026-10-05
+
+gdc2025state:
+  type: misc
+  title: 'GDC 2025 State of the Game Industry: Devs Weigh in on Layoffs, AI, and More'
+  author: Elderkin, Beth
+  date: 2025-03
+  url:
+    value: https://gdconf.com/article/gdc-2025-state-of-the-game-industry-devs-weigh-in-on-layoffs-ai-and-more/
+    date: 2026-10-05
+
+gamedevreports2026:
+  type: misc
+  title: 'GDC: The State of the Game Industry - 2026'
+  author: GameDev Reports
+  date: 2026-02-16
+  url:
+    value: https://gamedevreports.substack.com/p/gdc-the-state-of-the-game-industry-fcf
+    date: 2026-10-05
+
+perforce2025report:
+  type: misc
+  title: 2025 State of Game Technology Report (Herstellerumfrage)
+  author: Perforce Software
+  date: 2025-09-18
+  url:
+    value: https://www.perforce.com/press-releases/state-of-game-technology-report-2025
+    date: 2026-10-05
