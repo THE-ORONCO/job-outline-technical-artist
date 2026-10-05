@@ -16,7 +16,7 @@ ubisoft2016:
     date: 2025-03-16
 chadwick2009:
   type: misc
-  title: Technical Artist Guidlines
+  title: Technical Artist Guidelines
   author:
   - Chadwick, Eric
   - McClure, Ryan
@@ -289,7 +289,7 @@ gdcLong2011:
 acegikmo2025:
   type: blog
   title: '{F}reya''s {S}tuff'
-  author: Homér, Freya
+  author: Holmér, Freya
   # date: 2025
   url:
     value: https://cat.gay/
@@ -479,8 +479,8 @@ axolot2024:
 
 arrowheadInternship:
   type: misc
-  title: REcruitment, Jobs & Open Positions - Arrowhead Games Studios
-  author: Arrowhead Games Studios
+  title: Recruitment, Jobs & Open Positions - Arrowhead Game Studios
+  author: Arrowhead Game Studios
   url:
     value: https://jobs.arrowheadgamestudios.com
     date: 2025-04-13

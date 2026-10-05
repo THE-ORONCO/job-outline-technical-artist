@@ -78,7 +78,7 @@ an der Hochschule für angewandte Wissenschaften Neu-Ulm \
 
 Ein @TA steht zwischen dem Art- und Programmier-Team und vereinfacht und optimiert die Produktion und Integration von Art-Assets in das Spiel.
 
-Technical Art ist ein sehr breites Berufsfeld. So kann es die Aufgabe eines @TA:pl sein, Tools zu erweitern oder entwickeln, welche die Artists in der Firma verwenden. Ein anderer @TA kann hingegen die Pipeline organisieren und managen, durch welche jegliche Assets im Entstehungsprozess fließen. Wohingegen ein weiterer @TA Shader schreibt, um die grafische Darstellung zu verbessern und den Artists beibringt, wie diese Sharder zu verwenden sind. @riot2018
+Technical Art ist ein sehr breites Berufsfeld. So kann es die Aufgabe eines @TA:pl sein, Tools zu erweitern oder entwickeln, welche die Artists in der Firma verwenden. Ein anderer @TA kann hingegen die Pipeline organisieren und managen, durch welche jegliche Assets im Entstehungsprozess fließen. Wohingegen ein weiterer @TA Shader schreibt, um die grafische Darstellung zu verbessern und den Artists beibringt, wie diese Shader zu verwenden sind. @riot2018
 
 Als Brücke zwischen der artistischen und technischen Seite der Spieleentwicklung dient ein @TA als Ansprechpartner für Artists und Designer, die auf technische Probleme stoßen. @riotJob So setzt sich ein @TA sowohl mit Artists als auch Programmierern zusammen, um über potenzielle Engpässe im Schaffungsprozess zu sprechen und die Integration von kommenden Features und Assets abzustimmen. Hierzu braucht ein @TA sowohl fundierte Kenntnisse in den künstlerischen Disziplinen als auch im Programmieren. @chadwick2009 @unrealJob @microsoftJob
 
@@ -166,19 +166,19 @@ digraph G {
 ) <career-path>
 
 #set cite(form: "prose")
-Aus Interviews von @gdcAkesson2011, @gdcButterworth2011, @gdcCloward2011, @gdcDecker2011, @gdcFerguson2011, @gdcFerguson2011, @gdcGalanakis2011, @gdcGibson2011, @gdcGibson2011, @gdcGood2011, @gdcGoodman2011, @gdcGrimes2011, @gdcHanna2011, @gdcHarbor2011, @gdcHarbor2011, @gdcHash2011, @gdcLindqvist2011, @gdcLong2011, @gdcLong2011, @gdcNielsen2011, @gdcParks2011 und @gdcPletcher2011 durch Crossbie geht hervor, dass ein @TA eine Rolle ist, die sich aktiv aus Anforderungen an eine effizientere Assetverarbeitung entwickelt. Wie diese Entwicklung tatsächlich passiert, fällt sehr unterschiedlich aus. 
+Aus Interviews von @gdcAkesson2011, @gdcButterworth2011, @gdcCloward2011, @gdcDecker2011, @gdcFerguson2011, @gdcGalanakis2011, @gdcGibson2011, @gdcGood2011, @gdcGoodman2011, @gdcGrimes2011, @gdcHanna2011, @gdcHarbor2011, @gdcHash2011, @gdcLindqvist2011, @gdcLong2011, @gdcNielsen2011, @gdcParks2011 und @gdcPletcher2011 durch Crosbie geht hervor, dass ein @TA eine Rolle ist, die sich aktiv aus Anforderungen an eine effizientere Assetverarbeitung entwickelt. Wie diese Entwicklung tatsächlich passiert, fällt sehr unterschiedlich aus. 
 #set cite(form: "normal")
 
 Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Von den 19 für diese Analyse ausgewerteten Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<jobs>)[Jobs]) sind 13 als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
 
 == Skills
-Ein @TA benötigten Skills sowohl von der technische als auch von der künstlerischen Seite des Game-Developments. Da der Einstieg in die Industrie überwiegend nur über die initiale Anstellung als Artist oder als Programmierer möglich ist, werden im Folgenden die Skills erst einmal separat aufgeschlüsselt. Um tatsächlich als @TA arbeiten zu können, werden ein Großteil der Skills aus beiden Kategorien benötigt. Außerdem werden auch weitere, @TA spezifische, Skills benötigt, die an letzter Stelle im Kapitel aufgelistet werden.
+Ein @TA benötigt Skills sowohl von der technischen als auch von der künstlerischen Seite des Game-Developments. Da der Einstieg in die Industrie überwiegend nur über die initiale Anstellung als Artist oder als Programmierer möglich ist, werden im Folgenden die Skills erst einmal separat aufgeschlüsselt. Um tatsächlich als @TA arbeiten zu können, werden ein Großteil der Skills aus beiden Kategorien benötigt. Außerdem werden auch weitere, @TA spezifische, Skills benötigt, die an letzter Stelle im Kapitel aufgelistet werden.
 
 In keiner Quelle lässt sich eine komplette Liste an nötigen Skills finden, die ein @TA benötigt, da sich die tatsächlichen Anforderungen der konkreten Tätigkeit stark unterscheiden. Grundsätzlich gilt aber, dass ein fundiertes Wissen von mindestens einem Games-Branchen-Job wie Level Design, Environment Art, Animation oder Coding vorhanden sein sollte. @robinson2018 
 
 Die folgenden Listen sollten also eher als Guidelines gesehen werden. Dennoch gibt es Skills, die häufiger aufgeführt wurden als andere. Entsprechend der Häufigkeit sind die Listen sortiert. Grundlage sind Interviews und Fachquellen aus den Jahren 2009 bis 2018, aktuelle Fachbeiträge sowie die 19 im Kapitel Karrierepfad genannten Stellenausschreibungen. Bei den Ausschreibungen wurde gezählt, ob eine Fähigkeit als Voraussetzung oder als Zusatzqualifikation genannt wird. Da die Studios gezielt ausgewählt wurden, ist diese Auswahl nicht repräsentativ für den gesamten Arbeitsmarkt.
 
-Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen werden ist zu sehen, dass sich die Grundlagen des Berufs gleich nicht wirklich verändert haben: Python, Shader-Arbeit, Pipeline-Verständnis und Kommunikation gehören weiterhin zu den am häufigsten verlangten Fähigkeiten. Deutlich konkreter geworden sind dagegen die Anforderungen an Engine-Kenntnisse. Häufig gefragt ist hier Wissen über die Unreal Engine 5 und an Performance-Analyse mit konkreten Profiling-Tools. MaxScript und eigenständige Physik-Engines wie Havok werden hingegen nicht mehr genannt. KI und Machine Learning spielen bisher (Stand Oktober 2026) nur eine Nebenrolle.
+Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen werden, ist zu sehen, dass sich die Grundlagen des Berufs nicht wirklich verändert haben: Python, Shader-Arbeit, Pipeline-Verständnis und Kommunikation gehören weiterhin zu den am häufigsten verlangten Fähigkeiten. Deutlich konkreter geworden sind dagegen die Anforderungen an Engine-Kenntnisse. Häufig gefragt ist hier Wissen über die Unreal Engine 5 und über Performance-Analyse mit konkreten Profiling-Tools. MaxScript und eigenständige Physik-Engines wie Havok werden hingegen nicht mehr genannt. KI und Machine Learning spielen bisher (Stand Oktober 2026) nur eine Nebenrolle.
 
 === Programmierer
 - Scripting & Coding, um selbst Tools, Shader etc. zu entwickeln oder mit Skripten verschiedenste Dinge zu automatisieren. @indeed2024 @gdcParks2011 @gdcAkesson2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcLong2011 @gdcHash2011 @gdcGood2011  @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @epicJobLeadTa2026 @riotJobTaManager2026 @vividJobTa2026 @avalancheJobProfiling2026 @rockfishJobTa2026 @weltenbauerJobVfx2026 hierbei kann es sich zum Beispiel um folgende Sprachen handeln:
@@ -194,7 +194,7 @@ Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen we
   - VEX (Houdini) @lv2026houdiniBridge
 
 - Mathematik für Grafikprogrammierung @gdcGoodman2011
-  - lineare Algebra / 3D-Mathematik (Vektor, Matrix, Euler-Winkel, Quaternion etc.) @lightspeedJobTa2026 @rockfishJobTa2026 @gdcLindqvist2011 @gdcCloward2011 @gdcFerguson2011 @chadwick2009 @gdcHanna2011 @gdcParks2011 @gdcLindqvist2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcHarbor2011 @gdcCloward2011 @gdcGibson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018
+  - lineare Algebra / 3D-Mathematik (Vektor, Matrix, Euler-Winkel, Quaternion etc.) @lightspeedJobTa2026 @rockfishJobTa2026 @gdcLindqvist2011 @gdcCloward2011 @gdcFerguson2011 @chadwick2009 @gdcHanna2011 @gdcParks2011  @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcHarbor2011  @gdcGibson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018
   - Trigonometrie @gdcHash2011 @gdcDecker2011 @robinson2018
   - Infinitesimalrechnung @gdcGrimes2011 @gdcDecker2011 @lightspeedJobTa2026
   - Inverse- / Forwards-Kinematik @gdcGalanakis2011
@@ -203,7 +203,7 @@ Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen we
   - HLSL / GLSL @riotJobTaRender2026 @twoKJobShader2026 @lightspeedJobTa2026 @massiveJobUi2026 @avalancheJobProfiling2026 @vividJobTa2026 @weltenbauerJobVfx2026
   - node-basierte Material- und Shader-Editoren (z. B. Unreal Material Editor / Substrate, Unity Shader Graph) @riotJobTaRender2026 @twoKJobShader2026 @vividJobTa2026 @cgchannel2025ue57 @unity2024unity6
 
-- Sofware-Design-Muster, um gute und instand haltbare Software zu designen @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation
+- Software-Design-Muster, um gute und instand haltbare Software zu designen @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation
 
 === Artist
 - Wissen über Industrie-Tools (z. B. die Adobe Suite) @unrealJob @microsoftJob @riotJob
@@ -226,8 +226,8 @@ Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen we
   - Baking @twoKJobShader2026 @vividJobTa2026
 - Effekte und Partikel-Systeme @chadwick2009 @riotJobTaRender2026 @lightspeedJobTa2026 @techlandJobTa2026 @vividJobTa2026 @weltenbauerJobVfx2026
   - z. B. Niagara (Unreal Engine), VFX Graph (Unity) oder EmberGen @riotJobTaRender2026 @weltenbauerJobVfx2026 @unity2024unity6
-- 3D Modelierung @gdcParks2011 @gdcGrimes2011 @twoKJobShader2026 @lightspeedJobTa2026 @vividJobTa2026
-  - Charaktäre @chadwick2009
+- 3D-Modellierung @gdcParks2011 @gdcGrimes2011 @twoKJobShader2026 @lightspeedJobTa2026 @vividJobTa2026
+  - Charaktere @chadwick2009
   - Props @chadwick2009
   - Umgebungen @chadwick2009
 - UI/UX @chadwick2009 @riotJob @riotJobTaRender2026 @massiveJobUi2026 @vividJobTa2026
@@ -267,7 +267,7 @@ Diese Skills sind notwendig, um die künstlerische und technische Seite des Beru
   - Build- und Automatisierungssysteme (z. B. Jenkins, Airflow) sowie Paketverwaltung (z. B. Rez, PyPI) @rockstarJobProcedural2026 @lv2026amos
   - automatische Asset-Validierung @rockfishJobTa2026
 - Physiksimulation @chadwick2009 @gdcLindqvist2011 @riotJobTaAnim2026 @twoKJobRigger2026 @epicJobTechAnim2026
-  - bekannte Engines und deren Verwendung bekannt (wie z. B. Havok) @chadwick2009( in aktuellen Ausschreibungen werden keine eigenständigen Physik-Engines mehr genannt)
+  - bekannte Engines und deren Verwendung bekannt (wie z. B. Havok) @chadwick2009 (in aktuellen Ausschreibungen werden keine eigenständigen Physik-Engines mehr genannt)
   - Wissen über effiziente Physik-Setups @chadwick2009
   - Fehler / Performance-Engpässe in der Physik-Umgebung identifizieren und reparieren können
   - Charakter-Physik und sekundäre Bewegung (z. B. Jiggle Joints) @riotJobTaAnim2026 @twoKJobRigger2026 @epicJobTechAnim2026
@@ -283,7 +283,7 @@ Diese Skills sind notwendig, um die künstlerische und technische Seite des Beru
 - gute Kommunikationsfähigkeiten (da @TA:pl zwischen den Artists und den Programmierern stehen und vermitteln müssen) @indeed2024 @gdcGibson2011 @gdcGoodman2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018 @rockstarJobTaDevOps @riotJobTaAnim2026 @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobShader2026 @twoKJobRigger2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @massiveJobUi2026 @techlandJobTa2026 @avalancheJobProfiling2026 @eaJobRigging2026 @vividJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026 \
   (in 18 der 19 Stellen der Stichprobe als Anforderung oder Aufgabe genannt)
 - Fehlersuche- / Problemlösungsfähigkeiten @chadwick2009 @gdcCloward2011 @gdcGoodman2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @gdcGood2011 @rockstarJobTaAnimation @rockstarJobTaDevOps @twoKJobRigger2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @vividJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026
-- Interesse am Feld, Trieb zur Eigenrecherche und die Fähigkeit selbstständig zu lernen. @gdcParks2011 @gdcAkesson2011 @gdcLindqvist2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcPletcher2011 @gdcCloward2011 @gdcLong2011 @gdcGoodman2011 @gdcFerguson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018 @rockstarJobProcedural2026 Dieser Skill wir sehr häufig genannt, da die benötigte Kombination aus Skills meist nie im Ganzen in Bildungseinrichtungen beigebracht wird und die verwendeten Technologien sich ständig wandeln.
+- Interesse am Feld, Trieb zur Eigenrecherche und die Fähigkeit selbstständig zu lernen. @gdcParks2011 @gdcAkesson2011 @gdcLindqvist2011 @gdcGrimes2011 @gdcNielsen2011 @gdcGalanakis2011 @gdcPletcher2011 @gdcCloward2011 @gdcLong2011 @gdcGoodman2011 @gdcFerguson2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018 @rockstarJobProcedural2026 Dieser Skill wird sehr häufig genannt, da die benötigte Kombination aus Skills meist nie im Ganzen in Bildungseinrichtungen beigebracht wird und die verwendeten Technologien sich ständig wandeln.
 - Fähigkeit anderen Dinge beizubringen (z. B. das Beibringen von effizienteren Wegen Assets zu erstellen oder wie selbst entwickelte Tools zu nutzen sind) @chadwick2009 @gdcLindqvist2011 @gdcHash2011 @gdcDecker2011 @riotJobTaManager2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @massiveJobUi2026 @rockfishJobTa2026
   - in Senior- und Lead-Rollen zusätzlich Mentoring und Führung anderer @TA:pl @riotJobTaManager2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @massiveJobUi2026
 
@@ -347,9 +347,9 @@ In diesem Semester habe ich vor allem die Tool-Entwicklung im Blick, da gerade b
 
 
 ==== Interessante Studios in Schweden
-/ Massive Entertainment  @massive2025: Ein Studio mit einem Portfolio von grafisch und technisch beeindruckenden Spielen wie #quote[Star Wars Outlaws], #quote[Avatar: Frontiers of Pandora] und #quote[Tom lancy's The Division 2]. Hier erhoffe ich mir zu lernen, wie ein @TA hochdetailierte Assets in Spiele integriert, ohne dabei die Performance leide zu lassen.
+/ Massive Entertainment  @massive2025: Ein Studio mit einem Portfolio von grafisch und technisch beeindruckenden Spielen wie #quote[Star Wars Outlaws], #quote[Avatar: Frontiers of Pandora] und #quote[Tom Clancy's The Division 2]. Hier erhoffe ich mir zu lernen, wie ein @TA hochdetaillierte Assets in Spiele integriert, ohne dabei die Performance leiden zu lassen.
 / DICE Studios @dice2025: DICE sind Macher von einigen Battlefield Teilen, #quote[Battlefront] und #quote[Mirror's Edge]. Hier erhoffe ich mir, mit massiven Asset-Mengen in großen Teams zu arbeiten und zu erlernen, wie große Studios die Pipelines für solche Assets managen.
-/ Arrow Head Games Studios @arrowheadInternship: Dieses Studio besitzt im Moment noch kein Praktikumsprogramm, arbeitet aber aktiv daran, eines anzubieten. Sie sind die Macher von #quote[Helldivers 2], einem grafisch hochwertigen Spiel mit gigantischen Massen an Gegner und visuellen Effekten. Wenn das Praktikantenprogramm rechtzeitig zum 6. Semester angeboten wird, kann ich mir gut vorstellen, dass ich dort viele Skills erlernen könnte, die ich als Technical Artist benötige.
+/ Arrowhead Game Studios @arrowheadInternship: Dieses Studio besitzt im Moment noch kein Praktikumsprogramm, arbeitet aber aktiv daran, eines anzubieten. Sie sind die Macher von #quote[Helldivers 2], einem grafisch hochwertigen Spiel mit gigantischen Massen an Gegner und visuellen Effekten. Wenn das Praktikantenprogramm rechtzeitig zum 6. Semester angeboten wird, kann ich mir gut vorstellen, dass ich dort viele Skills erlernen könnte, die ich als Technical Artist benötige.
 / Axolot Games @axolot2024: Die Macher von #quote[Raft] und #quote[Scrap Mechanic], beides Survival-Base-Builder-Games. Bei Axolot Games würde ich mir erhoffen zu lernen wie mit dynamischen Assets (Player gebaute Basen und Mechanismen) umzugehen ist und wie Systeme dahinter aussehen, die Konsistenz in Verhalten und Physik kontrollieren.
 
 === 7. Semester (2028)
@@ -365,9 +365,9 @@ In diesem Semester werde ich das ganze gelernte fokussiert anwenden. Bestenfalls
 === Erster Job (2029)
 - Junior-Stelle als Game-Programmierer bei einem AA oder AAA-Unternehmen
 
-== Nebenprojekte und generelles herangehen
+== Nebenprojekte und generelles Herangehen
 - In freien Minuten möchte ich kleinere Projekte realisieren, die ich entweder in meinem Portfolio präsentieren kann oder die mir relevante Skills beibringen. Nach aktuellem Plan habe ich folgende Mini-Projekte geplant:
-  - Das Nachbauen von Spielmechaniken aus bekannten Spielen, mit gutem Game-Feel (z. B. das Movement aus Celeste) und schönen Effekte (z. B. das Gras aus Ghost of Tsushima), um die konkrete Arbeit mit Game-Engines zu erlenen. Hier habe ich eine konkrete Messlatte (die kopierten Spiele) an der ich meine Implementierung messen kann.
+  - Das Nachbauen von Spielmechaniken aus bekannten Spielen, mit gutem Game-Feel (z. B. das Movement aus Celeste) und schönen Effekten (z. B. das Gras aus Ghost of Tsushima), um die konkrete Arbeit mit Game-Engines zu erlernen. Hier habe ich eine konkrete Messlatte (die kopierten Spiele) an der ich meine Implementierung messen kann.
   - Motion Tracking mit Protokollanbindungen wie VRCFace, VMC und Ultraleap, um Rigging und Data-Streaming zu lernen
   - Dynamisches Level of Detail und Chunk-Loading für große Spiel-Welten, um mich konkret mit Performance und großen Datenmengen auseinanderzusetzen
 - Kontakte mit anderen Technical-Artists zu knüpfen. Hierzu werde ich entsprechenden Online-Communities beitreten und regelmäßig (mindestens einmal pro Jahr) auf relevante Konferenzen und Messen gehen. Hierzu würde sich zum Beispiel die devcom anbieten.
