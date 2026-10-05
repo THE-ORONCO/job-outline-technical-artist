@@ -184,13 +184,13 @@ Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen we
 - Scripting & Coding, um selbst Tools, Shader etc. zu entwickeln oder mit Skripten verschiedenste Dinge zu automatisieren. @indeed2024 @gdcParks2011 @gdcAkesson2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcLong2011 @gdcHash2011 @gdcGood2011  @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @epicJobLeadTa2026 @riotJobTaManager2026 @vividJobTa2026 @avalancheJobProfiling2026 @rockfishJobTa2026 @weltenbauerJobVfx2026 hierbei kann es sich zum Beispiel um folgende Sprachen handeln:
   - Python @chadwick2009 @gdcParks2011 @gdcGalanakis2011 @gdcCloward2011 @gdcButterworth2011 @gdcGood2011 @robinson2018 @riotJob @riotJobTaAnim2026 @riotJobTaManager2026 @twoKJobRigger2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @eaJobRigging2026 @rockfishJobTa2026 @weltenbauerJobVfx2026
     - Qt / PySide für Benutzeroberflächen von Artist-Tools @riotJobTaManager2026 @twoKJobRigger2026 @eaJobRigging2026
-  - MaxScript @chadwick2009 @gdcHanna2011 @gdcGalanakis2011 @gdcCloward2011 @gdcDecker2011 @robinson2018 (in den aktuellen Ausschreibungen nicht mehr gefordert)
-  - C\# / .NET @chadwick2009 @gdcGalanakis2011 @gdcHash2011 @rockstarJobTaAnimation @epicJobLeadTa2026 @lightspeedJobTa2026 @vividJobTa2026
   - C++ @gdcGibson2011 @rockstarJobTaAnimation @epicJobLeadTa2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @techlandJobTa2026 @avalancheJobProfiling2026 @weltenbauerJobVfx2026
     - häufig nur als Zusatzqualifikation oder auf dem Niveau, bestehenden Engine-Code lesen und nachvollziehen zu können @techlandJobTa2026 @avalancheJobProfiling2026
-  - C @gdcFerguson2011
+  - C\# / .NET @chadwick2009 @gdcGalanakis2011 @gdcHash2011 @rockstarJobTaAnimation @epicJobLeadTa2026 @lightspeedJobTa2026 @vividJobTa2026
+  - MaxScript @chadwick2009 @gdcHanna2011 @gdcGalanakis2011 @gdcCloward2011 @gdcDecker2011 @robinson2018 (in den aktuellen Ausschreibungen nicht mehr gefordert)
   - Visual Scripting (z. B. Unreal Blueprints) @riotJobTaAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @techlandJobTa2026 @rockfishJobTa2026 @weltenbauerJobVfx2026
   - JavaScript @chadwick2009 @gdcHash2011
+  - C @gdcFerguson2011
   - VEX (Houdini) @lv2026houdiniBridge
 
 - Mathematik für Grafikprogrammierung @gdcGoodman2011
