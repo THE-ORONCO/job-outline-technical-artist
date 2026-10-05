@@ -205,23 +205,39 @@ Die folgenden Listen sollten also eher als Guidelines gesehen werden. Dennoch gi
 - Sofware-Design-Muster, um gute und instand haltbare Software zu designen @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation
 
 === Artist
-- Rigging @chadwick2009 @gdcParks2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation
-- 3D Modelierung @gdcParks2011 @gdcGrimes2011
+- Wissen über Industrie-Tools (z. B. die Adobe Suite) @unrealJob @microsoftJob @riotJob
+  - Autodesk Maya @riotJobTaAnim2026 @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobRigger2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobMotion2025 @eaJobRigging2026
+  - SideFX Houdini @epicJobLeadTa2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @weltenbauerJobVfx2026
+  - Adobe Photoshop @riotJobTaRender2026 @twoKJobShader2026
+  - ZBrush @insomniacJobFacial2026 @rockstarJobProcedural2026
+  - Blender @epicJobLeadTa2026 @rockfishJobTa2026
+  - Autodesk 3ds Max / MotionBuilder @eaJobRigging2026
+- Rigging @chadwick2009 @gdcParks2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation @riotJobTaAnim2026 @twoKJobRigger2026 @insomniacJobFacial2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @eaJobRigging2026 @vividJobTa2026
+  - Facial-Rigs / FACS @twoKJobRigger2026 @insomniacJobFacial2026 @eaJobRigging2026
+  - Rigging direkt in der Engine (z. B. Unreal Control Rig) @epicJobTechAnim2026 @lightspeedJobMotion2025
+  - ML Deformer / RBF @lightspeedJobMotion2025
+- Lighting @robinson2018 @unrealJob @chadwick2009 @gdcGoodman2011 @riotJobTaRender2026 @lightspeedJobTa2026 @vividJobTa2026 @weltenbauerJobVfx2026
+  - Post-Processing @riotJobTaRender2026 @techlandJobTa2026 @vividJobTa2026 @weltenbauerJobVfx2026
+  - dynamische Echtzeit-Beleuchtung (z. B. Lumen und MegaLights in Unreal Engine 5, Raytracing) @rockfishJobTa2026 @cgchannel2025ue57 @siggraph2025advances
+- Texturing @chadwick2009 @gdcParks2011 @twoKJobShader2026 @lightspeedJobTa2026
+  - Substance 3D Painter / Designer @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobShader2026 @lightspeedJobTa2026
+  - Physically Based Rendering (PBR) @twoKJobShader2026 @lightspeedJobTa2026
+  - Baking @twoKJobShader2026 @vividJobTa2026
+- Effekte und Partikel-Systeme @chadwick2009 @riotJobTaRender2026 @lightspeedJobTa2026 @techlandJobTa2026 @vividJobTa2026 @weltenbauerJobVfx2026
+  - z. B. Niagara (Unreal Engine), VFX Graph (Unity) oder EmberGen @riotJobTaRender2026 @weltenbauerJobVfx2026 @unity2024unity6
+- 3D Modelierung @gdcParks2011 @gdcGrimes2011 @twoKJobShader2026 @lightspeedJobTa2026 @vividJobTa2026
   - Charaktäre @chadwick2009
   - Props @chadwick2009
   - Umgebungen @chadwick2009
-
-- UV-Unwrapping @chadwick2009 @gdcParks2011
-- Texturing @chadwick2009 @gdcParks2011
-- Farbtheorie @indeed2024 @gdcGrimes2011
+- UI/UX @chadwick2009 @riotJob @riotJobTaRender2026 @massiveJobUi2026 @vividJobTa2026
+- 2D/3D-Animation @gdcParks2011 @rockstarJobTaAnimation @riotJobTaAnim2026 @lightspeedJobMotion2025
+  - Motion Capture und Retargeting @insomniacJobFacial2026 @lightspeedJobMotion2025
+- UV-Unwrapping @chadwick2009 @gdcParks2011 @lightspeedJobTa2026 @vividJobTa2026
+- Anatomie @gdcGrimes2011 @twoKJobRigger2026 @insomniacJobFacial2026 @eaJobRigging2026
+- Farbtheorie @indeed2024 @gdcGrimes2011 @riotJobTaRender2026
+- Konzeption, Designen, Prototypisieren und Blockout @chadwick2009 @massiveJobUi2026
+- Photogrammetrie und Verarbeitung von Scan-Daten @rockstarJobProcedural2026 @insomniacJobFacial2026
 - Formenlehre @indeed2024
-- Lighting @robinson2018 @unrealJob @chadwick2009 @gdcGoodman2011
-- Wissen über Industrie-Tools (z. B. die Adobe Suite) @unrealJob @microsoftJob @riotJob
-- 2D/3D-Animation @gdcParks2011 @rockstarJobTaAnimation
-- UI/UX @chadwick2009 @riotJob
-- Konzeption, Designen, Prototypisieren und Blockout @chadwick2009
-- Effekte und Partikel-Systeme @chadwick2009
-- Anatomie @gdcGrimes2011
 - Bild-Komposition @gdcGrimes2011
 
 
