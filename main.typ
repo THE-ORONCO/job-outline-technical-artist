@@ -169,7 +169,7 @@ digraph G {
 Aus Interviews von @gdcAkesson2011, @gdcButterworth2011, @gdcCloward2011, @gdcDecker2011, @gdcFerguson2011, @gdcFerguson2011, @gdcGalanakis2011, @gdcGibson2011, @gdcGibson2011, @gdcGood2011, @gdcGoodman2011, @gdcGrimes2011, @gdcHanna2011, @gdcHarbor2011, @gdcHarbor2011, @gdcHash2011, @gdcLindqvist2011, @gdcLong2011, @gdcLong2011, @gdcNielsen2011, @gdcParks2011 und @gdcPletcher2011 durch Crossbie geht hervor, dass ein @TA eine Rolle ist, die sich aktiv aus Anforderungen an eine effizientere Assetverarbeitung entwickelt. Wie diese Entwicklung tatsächlich passiert, fällt sehr unterschiedlich aus. 
 #set cite(form: "normal")
 
-Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Von den 19 für diese Analyse ausgewerteten Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<current-jobs>)[Jobs]) sind 13 als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
+Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Von den 19 für diese Analyse ausgewerteten Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<jobs>)[Jobs]) sind 13 als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
 
 == Skills
 Ein @TA benötigten Skills sowohl von der technische als auch von der künstlerischen Seite des Game-Developments. Da der Einstieg in die Industrie überwiegend nur über die initiale Anstellung als Artist oder als Programmierer möglich ist, werden im Folgenden die Skills erst einmal separat aufgeschlüsselt. Um tatsächlich als @TA arbeiten zu können, werden ein Großteil der Skills aus beiden Kategorien benötigt. Außerdem werden auch weitere, @TA spezifische, Skills benötigt, die an letzter Stelle im Kapitel aufgelistet werden.
@@ -374,8 +374,104 @@ In diesem Semester werde ich das ganze gelernte fokussiert anwenden. Bestenfalls
 - Ich muss mich auch aktiv selbst weiterbilden in den Bereichen, in denen das Studium keine Möglichkeiten bietet. Dafür habe ich bereits einige Bücher, die tiefer auf die technischen Details des Renderings eingehen. Das Besuchen von Kursen und das Teilnehmen an verschiedenen Programmier- und Kunst-Challenges  wird mir aber auch weiterhelfen. Konkret hätte ich hier Inktober und Swordtember zum Start angepeilt.
 - Da sich die Technologie stetig weiterentwickelt, muss ich auch aktiv den Neuigkeiten über Engines und Entwicklerstudios folgen, damit meine Skills nicht veralten. Hierzu werde ich relevante E-Mail-Newsletter und RSS-Feeds abonnieren und lesen.
 
-== Jobs
-Im Folgenden werden ein paar Stellenausschreibungen aufgeführt.
+== Jobs <jobs>
+Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen aufgeführt: zuerst die 19 aktuellen Ausschreibungen (Stand 05.10.2026), danach die Ausschreibungen aus der ursprünglichen Analyse (2024/2025), die inzwischen nicht mehr online sind.
+
+#figure(
+  image("job-images/riotJobTaAnim2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Technical Artist mit Fokus auf Animation bei Riot Games (Shanghai) @riotJobTaAnim2026],
+)
+
+#figure(
+  image("job-images/riotJobTaRender2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Rendering Technical Artist bei Riot Games (Shanghai) @riotJobTaRender2026],
+)
+
+#figure(
+  image("job-images/riotJobTaManager2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Technical Art Manager bei Riot Games (Sydney) @riotJobTaManager2026],
+)
+
+#figure(
+  image("job-images/twoKJobShader2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Shader Technical Artist bei 2K (San Mateo) @twoKJobShader2026],
+)
+
+#figure(
+  image("job-images/twoKJobRigger2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Technical Artist (Rigger) bei Visual Concepts / 2K (Kalifornien) @twoKJobRigger2026],
+)
+
+#figure(
+  image("job-images/insomniacJobFacial2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Facial Character TD bei Insomniac Games (Remote USA) @insomniacJobFacial2026],
+)
+
+#figure(
+  image("job-images/epicJobLeadTa2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Lead Technical Artist bei Epic Games (Cary); Ausschreibungstext aus der Greenhouse-API, da die Webseite nicht automatisiert abrufbar war @epicJobLeadTa2026],
+)
+
+#figure(
+  image("job-images/epicJobTechAnim2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Lead Technical Animator bei Epic Games (Cary); Ausschreibungstext aus der Greenhouse-API, da die Webseite nicht automatisiert abrufbar war @epicJobTechAnim2026],
+)
+
+#figure(
+  image("job-images/lightspeedJobTa2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Technical Artist bei Tencent LightSpeed Studios (Irvine) @lightspeedJobTa2026],
+)
+
+#figure(
+  image("job-images/lightspeedJobMotion2025.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Motion Technical Artist bei Tencent LightSpeed Studios (Osaka / Tokio) @lightspeedJobMotion2025],
+)
+
+#figure(
+  image("job-images/rockstarJobProcedural2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Technical Artist mit Fokus auf prozedurale Art bei Rockstar Games (Leeds) @rockstarJobProcedural2026],
+)
+
+#figure(
+  image("job-images/massiveJobUi2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior UI Technical Artist bei Ubisoft Massive Entertainment (Malmö) @massiveJobUi2026],
+)
+
+#figure(
+  image("job-images/techlandJobTa2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Technical Artist mit Fokus auf Rendering bei Techland (Breslau / Warschau); am 05.10.2026 bereits geschlossen @techlandJobTa2026],
+)
+
+#figure(
+  image("job-images/avalancheJobProfiling2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Technical Artist mit Fokus auf Profiling bei Avalanche Studios Group (Stockholm) @avalancheJobProfiling2026],
+)
+
+#figure(
+  image("job-images/eaJobRigging2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Technical Artist mit Fokus auf Rigging und Animation bei Electronic Arts / Codemasters (Großbritannien) @eaJobRigging2026],
+)
+
+#figure(
+  image("job-images/vividJobTa2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Technical Artist bei Vivid Games (Bydgoszcz / Remote) @vividJobTa2026],
+)
+
+#figure(
+  image("job-images/rockfishJobTa2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Technical Artist bei ROCKFISH Games (Hamburg) @rockfishJobTa2026],
+)
+
+#figure(
+  image("job-images/welevelJobTa2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Senior Unreal Technical Artist bei welevel (München) @welevelJobTa2026],
+)
+
+#figure(
+  image("job-images/weltenbauerJobVfx2026.png", width: 100%, height: 22cm, fit: "contain"),
+  caption: [Jobangebot als Tech Artist VFX bei weltenbauer (Wiesbaden / Remote) @weltenbauerJobVfx2026],
+)
+
 #figure(
   image("job-images/unreal-engine-tech-artist.png"),
   caption: [Jobangebot als Technical Artist im Unreal Engine Team @unrealJob],
@@ -400,7 +496,4 @@ Im Folgenden werden ein paar Stellenausschreibungen aufgeführt.
   image("job-images/senior-technical-artist-rendering-riot.png",height: 23cm),
   caption: [Jobangebot als Technical Artist bei Riot mit Fokus auf Rendering und UI/UX @riotJob],
 )
-=== Aktuelle Stellenausschreibungen (Stand 05.10.2026) <current-jobs>
-// TODO Schritt 2h: Übersichtstabelle + Screenshots
-
 #bibliography("sources.yml", style: "apa") 
