@@ -700,25 +700,7 @@ sidefx2026embark:
     value: https://www.sidefx.com/community/gdc-2026/
     date: 2026-10-05
 
-storm2026usd:
-  type: misc
-  title: Notes of the OpenUSD Roundtables at GDC 2026
-  author: Storm, Robin-Yann
-  date: 2026-07-07
-  url:
-    value: https://rystorm.com/blog/openusd-roundtable-gdc-2026
-    date: 2026-10-05
-
 # TODO remove probably
-ubisoft2025chord:
-  type: misc
-  title: 'Generative Base Material: An Open-Source Prototype for PBR Material Estimation'
-  author: Ubisoft La Forge
-  date: 2025-12-09
-  url:
-    value: https://www.ubisoft.com/en-us/studio/laforge/news/1i3YOvQX2iArLlScBPqBZs/generative-base-material-an-opensource-prototype-for-pbr-material-estimation-debuting-at-siggraph-asia-2025
-    date: 2026-10-05
-
 lv2026amos:
   type: misc
   title: Technical Artist on Building Tools, Pipelines, and Blending Art with Engineering
