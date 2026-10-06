@@ -1,18 +1,110 @@
 #import "@preview/glossy:0.7.0": *
 #import "@preview/diagraph:0.3.3": *
 
-#set text(lang: "de", font: "Fira Sans")
+// ---------- Design-Tokens ----------
+#let accent = rgb("#1f4e79")
+#let accent-light = rgb("#e8eef5")
+#let muted = rgb("#6b7280")
+
+#set text(lang: "de", font: "Fira Sans", size: 10.5pt)
 #set document(
   title: "Technical Artist - ein Berufsbild",
   author: "Théo Florin Roncoletta",
   description: "cooler Bericht",
 )
 
-#set page(numbering: "1")
-#set par(justify: true)
+#set page(
+  paper: "a4",
+  margin: (x: 25mm, top: 28mm, bottom: 25mm),
+  numbering: "1",
+  header: context {
+    if counter(page).get().first() > 1 {
+      let here-page = here().page()
+      let on-page = query(heading.where(level: 1)).filter(h => h.location().page() == here-page)
+      let before = if on-page.len() > 0 { on-page } else {
+        query(selector(heading.where(level: 1)).before(here()))
+      }
+      set text(size: 8.5pt, fill: muted)
+      grid(
+        columns: (1fr, auto),
+        [Berufsbildanalyse „Technical Artist“],
+        if before.len() > 0 { before.last().body },
+      )
+      v(-0.6em)
+      line(length: 100%, stroke: 0.5pt + accent)
+    }
+  },
+  footer: context {
+    if counter(page).get().first() > 1 {
+      set align(center)
+      set text(size: 8.5pt, fill: muted)
+      [Seite #counter(page).display() von #counter(page).final().first()]
+    }
+  },
+)
+#set par(justify: true, leading: 0.7em, spacing: 1.1em)
 
-#set align(center)
-#v(20mm)
+// ---------- Überschriften ----------
+#set heading(numbering: "1.1")
+#show heading: set text(fill: accent)
+#show heading.where(level: 1): it => {
+  v(1.6em, weak: true)
+  set text(size: 20pt, weight: "bold")
+  block(it)
+  v(-0.5em)
+  line(length: 100%, stroke: 1pt + accent)
+  v(0.8em)
+}
+#show heading.where(level: 2): it => {
+  v(1.5em, weak: true)
+  set text(size: 14pt, weight: "bold")
+  block(it, below: 0.8em)
+}
+#show heading.where(level: 3): it => {
+  v(1.2em, weak: true)
+  set text(size: 12pt, weight: "bold")
+  block(it, below: 0.7em)
+}
+#show heading.where(level: 4): it => {
+  v(1em, weak: true)
+  set text(size: 10.5pt, weight: "bold", fill: black)
+  block(it, below: 0.6em)
+}
+
+// ---------- Listen, Links, Zitate ----------
+#set list(indent: 4mm, marker: (text(fill: accent)[◆], text(fill: accent)[►]))
+#show terms.item: it => block(above: 0.8em)[
+  #text(weight: "bold", fill: accent, it.term)#h(0.6em)#it.description
+]
+#show link: set text(fill: accent)
+#show cite.where(form: "normal"): set text(fill: muted, size: 0.9em)
+
+// ---------- Abbildungen ----------
+#show figure: set block(above: 1.8em, below: 1.8em)
+#show figure.caption: it => {
+  set text(size: 9pt)
+  [*#it.supplement #context it.counter.display(it.numbering)#it.separator*#it.body]
+}
+#show figure.where(kind: image): it => {
+  show image: img => box(stroke: 0.5pt + muted, inset: 0pt, img)
+  it
+}
+
+// ---------- Verzeichnisse ----------
+#set outline(indent: auto)
+#set outline.entry(fill: repeat(text(fill: muted)[.], gap: 0.3em))
+#show outline.entry.where(level: 1): it => {
+  if it.element.func() != heading { return it }
+  v(0.9em, weak: true)
+  strong(it)
+}
+
+#show bibliography: set text(size: 9.5pt)
+
+// ---------- Titelseite ----------
+#page(numbering: none)[
+  #set align(center)
+  #v(15mm)
 
 Portfolio-Prüfungsabgabe \
 *Berufsbildanalyse* \
@@ -50,9 +142,7 @@ an der Hochschule für angewandte Wissenschaften Neu-Ulm \
   [Arbeit abgegeben:], [#datetime.today().display("[day].[month].[year]")#v(10mm)],
 )
 
-
-#pagebreak()
-
+]
 #outline()
 
 #pagebreak()
@@ -60,7 +150,7 @@ an der Hochschule für angewandte Wissenschaften Neu-Ulm \
 // add a fake heading to create a reference to the list of images
 #{
   show heading: none
-  heading[Abbildungsverzeichnis]
+  heading(numbering: none)[Abbildungsverzeichnis]
 }
 #outline(title: [Abbildungsverzeichnis], target: figure)
 
@@ -107,15 +197,20 @@ Ein paar der Optionen sind in @career-path aufgeführt.
 digraph G {
     // specify graph attributes
     bgcolor=white
-    color=grey
+    color="#1f4e79"
+    fontname="Fira Sans"
     
     // specify common node attributes
-    node [color="#111",bgcolor=white]
-    edge [color=black]
+    node [shape=box, style="rounded,filled", color="#1f4e79", fillcolor="#e8eef5", fontname="Fira Sans", fontcolor="#1f2937"]
+    edge [color="#1f4e79", arrowsize=0.7]
       TA [label = "Technical Artist"]
 
     subgraph cluster_TA {
       label="Technical Art Spezialisierung"
+      style="rounded,filled"
+      fillcolor="#f5f8fb"
+      fontcolor="#1f4e79"
+      labelloc="b"
       TAR [label="Rigging"]
       TAP [label="Pipeline"]
       TAT [label="Tooling"]
