@@ -392,6 +392,139 @@ Diese Skills sind notwendig, um die künstlerische und technische Seite des Beru
 
 
 == Bücher
+Die folgenden Bücher decken die Wissensgebiete eines @TA ab: Rendering, Shader, Mathe, Engine/Tools sowie Licht und Game-Feel. Alle Titel sind auch im Literaturverzeichnis aufgeführt.
+#let cover_height = 5cm
+#grid(
+  columns: 3,
+  gutter: 5mm,
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/mollerRealtimeRendering2018.jpg", height: cover_height, fit: "contain", alt: "Cover: Real-Time Rendering")
+    #v(2mm)
+    #set align(left)
+    *Real-Time Rendering* @mollerRealtimeRendering2018 \
+    Das Standardwerk zum Echtzeit-Rendering (Pipeline, Shading, Global Illumination). Grundlage, um Rendering-Entscheidungen und Performance-Probleme zu verstehen.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/pharrPhysicallyBasedRendering2023.jpg", height: cover_height, fit: "contain", alt: "Cover: Physically Based Rendering")
+    #v(2mm)
+    #set align(left)
+    *Physically Based Rendering* @pharrPhysicallyBasedRendering2023 \
+    Tiefgang zu Lichttransport und PBR, gratis online lesbar. Wer versteht, wie Licht physikalisch funktioniert, schreibt bessere Shader und Materialien.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/halladayPracticalShaderDevelopment2019.jpg", height: cover_height, fit: "contain", alt: "Cover: Practical Shader Development")
+    #v(2mm)
+    #set align(left)
+    *Practical Shader Development* @halladayPracticalShaderDevelopment2019 \
+    Hands-on-Einstieg in Vertex- und Fragment-Shader inkl. Profiling und Optimierung, mit Vergleich von Unity, Unreal und Godot.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/fernandoCgTutorialDefinitive2003.jpg", height: cover_height, fit: "contain", alt: "Cover: The Cg Tutorial")
+    #v(2mm)
+    #set align(left)
+    *The Cg Tutorial* @fernandoCgTutorialDefinitive2003 \
+    Der Klassiker, mit dem viele @TA:pl (u. a. Cloward) Shader gelernt haben. Cg ist nahezu identisch mit HLSL und deckt alle Shader-Grundlagen ab.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/st-laurentShadersGameProgramming2004.jpg", height: cover_height, fit: "contain", alt: "Cover: Shaders for Game Programmers and Artists")
+    #v(2mm)
+    #set align(left)
+    *Shaders for Game Programmers and Artists* #cite(<st-laurentShadersGameProgramming2004>) \
+    Erklärt Shader in einfacher, artist-freundlicher Sprache: von Color-Filtern bis zu fortgeschrittenem Lighting und Shadow Mapping.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/espindolaUnityShadersBible2026.jpg", height: cover_height, fit: "contain")
+    #v(2mm)
+    #set align(left)
+    *The Unity Shaders Bible* @espindolaUnityShadersBible2026 \
+    Moderne, Unity-nahe Shader-Einführung. Gut für prozedurale Shapes und UI-Elemente per Shader.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/fabrizioespindolaGodotShadersBible2026.jpg", height: cover_height, fit: "contain")
+    #set align(left)
+    *The Godot Shaders Bible* @fabrizioespindolaGodotShadersBible2026 \
+    Shader-Pendant für Godot: praxisnaher Einstieg zum Üben unabhängig von Unity/Unreal. (E-Book, ohne Coverabbildung.)
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/dunn3DMathPrimer2011.jpg", height: cover_height, fit: "contain", alt: "Cover: 3D Math Primer")
+    #v(2mm)
+    #set align(left)
+    *3D Math Primer* @dunn3DMathPrimer2011 \
+    Zugänglicher Einstieg in Vektoren, Matrizen, Quaternionen und Koordinatensysteme. Gratis online lesbar, ideal als Mathe-Grundlage.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/lengyelMathematics3DGame2012.jpg", height: cover_height, fit: "contain", alt: "Cover: Mathematics for 3D Game Programming")
+    #v(2mm)
+    #set align(left)
+    *Mathematics for 3D Game Programming* @lengyelMathematics3DGame2012 \
+    Vertiefende Mathe-Referenz für Grafikprogrammierung: von linearer Algebra bis Beleuchtung und Sichtbarkeitsbestimmung.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/gregoryGameEngineArchitecture2018.jpg", height: cover_height, fit: "contain", alt: "Cover: Game Engine Architecture")
+    #v(2mm)
+    #set align(left)
+    *Game Engine Architecture* @gregoryGameEngineArchitecture2018 \
+    Überblick über alle Engine-Subsysteme aus Naughty-Dog-Perspektive. Hilft zu verstehen, wo Tech-Art in der Engine andockt.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/nystromGameProgrammingPatterns2014.jpg", height: cover_height, fit: "contain", alt: "Cover: Game Programming Patterns")
+    #v(2mm)
+    #set align(left)
+    *Game Programming Patterns* @nystromGameProgrammingPatterns2014 \
+    Wartbarer Tool-Code (Game Loop, Components, Cache-Nutzung). Gratis online, direkt auf Tool-Entwicklung anwendbar.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/fernandoGPUGemsProgramming2004.jpg", height: cover_height, fit: "contain", alt: "Cover: GPU Gems")
+    #v(2mm)
+    #set align(left)
+    *GPU Gems* @fernandoGPUGemsProgramming2004 \
+    Sammlung praxiserprobter GPU-Techniken aus echten Produktionen. Gratis bei NVIDIA, ideal zum Nachschlagen konkreter Verfahren.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/pharrGPUGems22005.jpg", height: cover_height, fit: "contain", alt: "Cover: GPU Gems 2")
+    #v(2mm)
+    #set align(left)
+    *GPU Gems 2* @pharrGPUGems22005 \
+    Fortsetzung mit Fokus auf moderne GPUs und GPGPU. Ebenfalls gratis verfügbar, gut für Simulation und fortgeschrittene Effekte.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/nguyenGPUGems32008.jpg", height: cover_height, fit: "contain", alt: "Cover: GPU Gems 3")
+    #v(2mm)
+    #set align(left)
+    *GPU Gems 3* @nguyenGPUGems32008 \
+    Dritter Band der Reihe mit aktuellen Rendering-Techniken der damaligen GPU-Generation. Gratis verfügbar als Referenz.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/birnDigitalLightingRendering2014.jpg", height: cover_height, fit: "contain", alt: "Cover: Digital Lighting and Rendering")
+    #v(2mm)
+    #set align(left)
+    *Digital Lighting and Rendering* @birnDigitalLightingRendering2014 \
+    Licht aus Artist-Sicht: Belichtung, Schatten, Farbe und Komposition. Wichtig für die künstlerische Seite des #[@TA]-Berufs.
+  ],
+  rect(fill: accent-light, radius: 2mm, inset: 3mm, width: 100%)[
+    #set align(center)
+    #image("covers/swinkGameFeelGame2009.jpg", height: cover_height, fit: "contain", alt: "Cover: Game Feel")
+    #v(2mm)
+    #set align(left)
+    *Game Feel* @swinkGameFeelGame2009 \
+    Wie sich Spiele gut anfühlen (Responsiveness, Feedback, Juice). Nützlich, wenn #[@TA]-Arbeit wie Effekte und Animation das Spielgefühl trägt.
+  ],
+)
 
 
 == Papers
