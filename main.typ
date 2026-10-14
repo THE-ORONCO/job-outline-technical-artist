@@ -73,9 +73,11 @@
 
 // ---------- Listen, Links, Zitate ----------
 #set list(indent: 4mm, marker: (text(fill: accent)[◆], text(fill: accent)[►]))
-#show terms.item: it => block(above: 0.8em)[
-  #text(weight: "bold", fill: accent, it.term)#h(0.6em)#it.description
-]
+#set terms(separator: text(weight: "bold", fill: accent)[:#h(5pt)], hanging-indent: 3mm)
+#show terms: it => {
+  show strong: it => text(weight: "bold", fill: accent, it.body)
+  it
+}
 #show link: set text(fill: accent)
 #show cite.where(form: "normal"): set text(fill: muted, size: 0.9em)
 
@@ -541,6 +543,56 @@ Die folgenden Bücher könnten für @TA:pl interessant sein und decken
 
 
 == Papers
+Ein großer Teil des Wissens eines @TA:pl basiert auf moderner Forschung in der Echtzeit-Grafik. Genauso wichtig ist es aber auch die technischen Grundlagen zu verstehen die wegweisend in der Computer-Grafik waren und teilweise heute noch immer relevant sind.
+
+Im Folgenden sind einige der wichtigsten Papers aufgelistet und erklärt wo solche Papers gefunden werden können.
+
+=== Rendering-Grundlagen
+- / An Improved Illumination Model for Shaded Display  @whittedImprovedIllumination1980: führt Raytracing und damit globale Beleuchtung ein — die Grundlage für Reflexionen, Schatten und das heutige Realtime-Raytracing (DXR, Lumen).
+- / The Rendering Equation @kajiyaRenderingEquation1986: formuliert die Gleichung, die praktisch jeder Renderer zu lösen versucht. Wer sie kennt, versteht, warum BRDFs, Lichtintegration und Sampling so aufgebaut sind.
+- / A Reflectance Model for Computer Graphics @cookTorranceReflectanceModel1982: das erste praxistaugliche Mikrofacetten-Reflexionsmodell und der Vorfahre der GGX-BRDFs, die heute in Unity und Unreal Standard sind.
+- / Models of Light Reflection for Computer Synthesized Pictures @blinnModelsLightReflection1977: Blinn-Phong-Shading und der Halbvektor-Trick — jahrzehntelang das Standardmodell für Specular-Highlights.
+- / Pyramidal Parametrics @williamsPyramidalParametrics1983 Mipmapping: erklärt Texturfilterung, Aliasing und Texturspeicher, also Alltagsthemen jedes @TA:pl.
+
+=== Noise & prozeduraler Content
+- / An Image Synthesizer @perlinImageSynthesizer1985: stellt Perlin-Noise vor, die Basis für prozedurale Texturen, Terrain, Wolken und unzählige Effekte.
+- / Improving Noise @perlinImprovingNoise2002: die verbesserte Noise-Variante mit deutlich weniger Gitterartefakten.
+- / Procedural Modeling of Cities @parishProceduralModelingCities2001: prozedurales Städtebauen mit L-Systemen (Vorbild für graphbasierte Tools wie Houdini oder CityEngine).
+- / WaveFunctionCollapse @guminWaveFunctionCollapse2016: constraint-basierte prozedurale Generierung (streng genommen kein Paper, sondern ein Referenz-Repo, das inzwischen in vielen Engines und Tools steckt).
+
+=== Physically Based Shading (Praxis)
+- / Physically-Based Shading at Disney @burleyPhysicallyBasedShadingDisney2012: der Disney-"Principled"-BRDF mit artist-freundlichen Reglern (Metallic, Roughness, Specular) und die Grundlage moderner Material-Workflows.
+- / Real Shading in Unreal Engine 4 @karisRealShadingUnreal2013: die PBR-Implementierung in UE4 inklusive vorgefiltertem Image-Based Lighting (Split-Sum), das heute überall Standard ist.
+- / Moving Frostbite to Physically Based Rendering @lagardeMovingFrostbitePBR2014: der praxisnaheste PBR-Report (Material-Pipeline, Energiekonformität und Authoring-Workflow).
+- / Understanding the Masking-Shadowing Function in Microfacet-Based BRDFs @heitzUnderstandingMaskingShadowing2014: erklärt den Geometrie-/Masking-Term (G) und den Zusammenhang von GGX und Smith (Pflichtlektüre beim Debuggen von Grazing Angles).
+- / Importance Sampling Microfacet-Based BSDFs using the Distribution of Visible Normals @heitzImportanceSamplingVisibleNormals2014: die VNDF-Sampling-Methode, die modernes Echtzeit-PBR erst rauscharm macht.
+
+=== Rigging & Animation
+- / Pose Space Deformation @lewisPoseSpaceDeformation2000: Korrektur-Shapes über Posen (Corrective Shapes) (die Grundlage für Muskel-, Falten- und Gesichtsdeformationen).
+- / Skinning with Dual Quaternions @kavanSkinningDualQuaternions2007: löst die Candy-Wrapper-Artefakte des klassischen Linearen Blend-Skinnings und ist damit direkt für Rigging-@TA:pl relevant.
+- / Smooth Skinning Decomposition with Rigid Bones @leSmoothSkinningDecomposition2012: leitet Skinning-Gewichte automatisch aus Beispielposen ab (die Grundlage datengetriebener Rig-Tools und des Auto-Skinnings).
+
+=== Neural Rendering
+- / NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis @mildenhallNeRF2020: die neuronale Szenenrepräsentation, die den gesamten Neural-Rendering-Trend ausgelöst hat.
+- / 3D Gaussian Splatting for Real-Time Radiance Field Rendering @kerblGaussianSplatting2023: Echtzeit-fähige neuronale Szenen aus Fotos (heute zentral für Scan- und Capture-Pipelines).
+- / Instant Neural Graphics Primitives with a Multiresolution Hash Encoding @mullerInstantNeuralGraphicsPrimitives2022: ein Hash-Encoding, das neuronale Grafikanwendungen in Sekunden trainiert und in Echtzeit rendert (die Basis vieler Tools).
+
+=== Wo Paper finden
+- *Publikationen & Konferenzen*
+  - / Transactions on Graphics (TOG) @acmTog: das Top-Journal der Computergrafik, eng verzahnt mit SIGGRAPH @siggraph.
+  - / Transactions on Visualization and Computer Graphics (TVCG) @ieeeTvcg:  Journal für Visualisierung, Grafik und interaktive Systeme.
+  - / Computer Graphics Forum @cgf: das Journal der Eurographics Association (u. a. EGSR).
+  - / Journal of Computer Graphics Techniques @jcgt: Peer-Review, Open Access und oft mit direkt anwendbaren Produktionstechniken statt reiner Theorie (für @TA:pl besonders lohnend).
+- *Datenbanken & Suche*
+  - / Google Scholar @googleScholar und Semantic Scholar @semanticScholar: breite Literatursuche inklusive Zitationsnetzwerken.
+  - / arXiv @arxivCsGr: Vorabdrucke (Preprints) aus der Computergrafik.
+  - Volltexte: ACM Digital Library @acmDigitalLibrary, IEEE Xplore @ieeeXplore und Eurographics Digital Library @eurographicsDigitalLibrary.
+- *Kuratierte Praxis-Sammlungen*
+  - / Ke-Sen Huangs Paperlisten @kesenPaperLists: nach Konferenz geordnete SIGGRAPH-Paper mit Links.
+  - / Real-Time Rendering @realTimeRendering: Ressourcen und Blog zum Standardwerk; gut, um den Überblick zu behalten.
+  - / Advances in Real-Time Rendering @advancesRealTimeRendering und Physically Based Shading @physicallyBasedShadingCourse : Die jährlichen SIGGRAPH-Kurse mit Techniken aus AAA-Studios.
+  - / NVIDIA GPU Gems @gpuGems und AMD GPUOpen @gpuOpen: Ppraxisnahe, teils kostenlose Technik-Sammlungen.
+  - / GDC Vault @gdcVault: Videos & Presentationen aller GDC-Talks (große Teile auch kostenlos zugänglich), viele davon auch über relevante Themen und präsentationen von Papers.
 
 
 == Tutorials & Blogs
@@ -550,23 +602,23 @@ Die folgenden Bücher könnten für @TA:pl interessant sein und decken
 Konferenzen sind für @TA:pl besonders wertvoll, weil sich Tools, Pipelines und Engine-Features ständig wandeln und viel Wissen nur persönlich weitergegeben wird. Die folgende Auswahl trennt große internationale Konferenzen, Veranstaltungen in Deutschland sowie regelmäßige Meetups und Online-Angebote.
 
 === Große internationale Konferenzen
-- *GDC – Game Developers Conference* (San Francisco, jährlich im März) @gdcGameDevelopersConference: mit eigenem *Technical Artist Summit* — u. a. Panel-Diskussion, Shader-Sessions und dem Technical-Artist-Roundtable (2026 im 20. Jahr) @gdcTechnicalArtistSummit. Ältere TA-Bootcamp-Sessions liegen im GDC Vault @gdcVaultTechnicalArtistBootCamp.
-- *SIGGRAPH* (Nordamerika, jährlich im Sommer) @siggraph: die Grafik-Konferenz; für @TA:pl v. a. der Track Gaming & Interactive und der Kurs #cite(<siggraph2025advances>, form: "prose") relevant.
-- *Unreal Fest* (mehrere Städte weltweit) @unrealFest: Engine-Konferenz von Epic mit Sessions, Demos und Labs — Pflicht bei UE-Fokus, inkl. State-of-Unreal-Keynote.
-- *Unite* (Unity, u. a. Seoul/Tokio) @unityUnite: das Gegenstück für Unity-User (Engine-Roadmap, Shader-/Render-Pipeline-Themen).
-- *Everything Procedural Conference* (Breda, Niederlande, jährlich im April) @everythingProcedural: kleine, fokussierte Konferenz zu prozeduraler Content-Erstellung für Spiele, inkl. Houdini-Masterclasses — direkt relevant für Procedural- und Pipeline-@TA:pl.
+- / Game Developers Conference (GDC) (San Francisco, jährlich im März) @gdcGameDevelopersConference: mit eigenem *Technical Artist Summit* — u. a. Panel-Diskussion, Shader-Sessions und dem Technical-Artist-Roundtable (2026 im 20. Jahr) @gdcTechnicalArtistSummit. Ältere TA-Bootcamp-Sessions liegen im GDC Vault @gdcVaultTechnicalArtistBootCamp.
+- / SIGGRAPH (Nordamerika, jährlich im Sommer) @siggraph: DIE Grafik-Konferenz, für @TA:pl v. a. der Track Gaming & Interactive und der Kurs #cite(<siggraph2025advances>, form: "prose") relevant.
+- / Unreal Fest (mehrere Städte weltweit) @unrealFest: Engine-Konferenz von Epic mit Sessions, Demos und Labs — Pflicht bei UE-Fokus, inkl. State-of-Unreal-Keynote.
+- / Unite (Unity, u. a. Seoul/Tokio) @unityUnite: das Gegenstück für Unity-User (Engine-Roadmap, Shader-/Render-Pipeline-Themen).
+- / Everything Procedural Conference (Breda, Niederlande, jährlich im April) @everythingProcedural: kleine, fokussierte Konferenz zu prozeduraler Content-Erstellung für Spiele, inkl. Houdini-Masterclasses — direkt relevant für Procedural- und Pipeline-@TA:pl.
 
 === Deutschland
-- *gamescom dev* (Köln, jährlich im August vor der gamescom) @gamescomDev: Europas größte Entwicklerkonferenz (bis 2025 als *devcom* bekannt), mit ca. 220 Sessions, Expo, Matchmaking und Indie-Bereich.
-- *FMX – Film & Media Exchange* (Stuttgart, jährlich im Frühjahr) @fmx: Europas wichtigste Konferenz für Animation, VFX und digitale Medien, mit starkem Realtime-/Games-Anteil, Workshops und Recruiting Hub (nächste Ausgabe: 27.–30.04.2027).
-- *Games Ground* (Berlin, jährlich im November) @gamesGround: Games-Festival mit Business Days (kuratierte Talks, Panels, Workshops zum Entwicklungs-Handwerk) und ermäßigten Tickets für Studierende.
-- *GermanDevDays* (Frankfurt) @germanDevDays: Vorträge, Panels und Workshops in entspanntem Rahmen; traditionell kostenlos für Schüler:innen und Studierende.
-- *GG Bavaria / Games/Bavaria* (München) @ggBavaria, @gamesBavariaEvents: Business Day, Pizza-Playtests und regionale Vernetzung der bayerischen Szene.
+- / gamescom dev (Köln, jährlich im August vor der gamescom) @gamescomDev: Europas größte Entwicklerkonferenz (bis 2025 als *devcom* bekannt), mit ca. 220 Sessions, Expo, Matchmaking und Indie-Bereich.
+- / Film & Media Exchange (FMX) (Stuttgart, jährlich im Frühjahr) @fmx: Europas wichtigste Konferenz für Animation, VFX und digitale Medien, mit starkem Realtime-/Games-Anteil, Workshops und Recruiting Hub (nächste Ausgabe: 27.–30.04.2027).
+- / Games Ground (Berlin, jährlich im November) @gamesGround: Games-Festival mit Business Days (kuratierte Talks, Panels, Workshops zum Entwicklungs-Handwerk) und ermäßigten Tickets für Studierende.
+- / GermanDevDays (Frankfurt) @germanDevDays: Vorträge, Panels und Workshops in entspanntem Rahmen; traditionell kostenlos für Schüler:innen und Studierende.
+- / GG Bavaria / Games/Bavaria (München) @ggBavaria, @gamesBavariaEvents: Business Day, Pizza-Playtests und regionale Vernetzung der bayerischen Szene.
 
 === Meetups & Online
-- *GAME/DEV/MUC-Stammtisch* (München, jeden zweiten Montag im Monat) @gamedevMuc: offener Stammtisch für alle, ob Indie, angestellt oder Studium — gut für erste Kontakte.
-- *Gamedev-Meetup Dresden* @gamedevDresden: Community mit Discord und regelmäßigen Treffen inkl. Fachvorträgen.
-- *tech-artists.org* @techArtistsOrg: die zentrale Online-Community der @TA:pl (Forum, Slack, Jobbörse) — der Ort, um Talk-Empfehlungen und Meetups zu finden.
+- / GAME/DEV/MUC-Stammtisch (München, jeden zweiten Montag im Monat) @gamedevMuc: offener Stammtisch für alle, ob Indie, angestellt oder Studium — gut für erste Kontakte.
+- / Gamedev-Meetup Dresden @gamedevDresden: Community mit Discord und regelmäßigen Treffen inkl. Fachvorträgen.
+- / tech-artists.org @techArtistsOrg: die zentrale Online-Community der @TA:pl (Forum, Slack, Jobbörse) (der Ort, um Talk-Empfehlungen und Meetups zu finden).
 
 
 == Zertifikate
