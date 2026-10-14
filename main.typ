@@ -591,4 +591,4 @@ Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen au
   image("job-images/senior-technical-artist-rendering-riot.png",height: 23cm),
   caption: [Jobangebot als Technical Artist bei Riot mit Fokus auf Rendering und UI/UX @riotJob],
 )
-#bibliography("sources.yml", style: "apa") 
+#bibliography("sources.bib", style: "apa")
