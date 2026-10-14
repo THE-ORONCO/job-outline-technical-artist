@@ -637,11 +637,40 @@ Konferenzen sind für @TA:pl besonders wertvoll, weil sich Tools, Pipelines und 
 - / tech-artists.org @techArtistsOrg: die zentrale Online-Community der @TA:pl (Forum, Slack, Jobbörse) (der Ort, um Talk-Empfehlungen und Meetups zu finden).
 
 
-== Zertifikate
+== Kurse
+Die folgenden Kurse und Programme sind gute startpunkte für kommende @TA:pl um Grundfähigkeiten zu erlernen oder existierende zu vertiefen.
+
+=== Freie Universitätskurse
+- / CMU 15-462/662 Computer Graphics @craneComputerGraphicsCMU: vollständige Vorlesungen samt Programmieraufgaben (Rasterizer und Raytracer) — die Referenz für Grafik-Grundlagen.
+- / CS 4600 Introduction to Computer Graphics @yukselIntroductionComputerGraphics: komplettes Vorlesungsprogramm der University of Utah mit Übungen, sehr implementierungsnah.
+- / CS 184/284A Computer Graphics and Imaging @ngComputerGraphicsImagingBerkeley: moderne Vorlesungsfolien inklusive BRDFs, Sampling und neuronalem Rendering.
+- / Scratchapixel @scratchapixel: frei zugängliches, strukturiertes Grundlagen-Curriculum mit Fokus auf die Mathematik hinter der Grafik.
+- / Ray Tracing in One Weekend @raytracingOneWeekend: kostenloses Buch mit Code, das Schritt für Schritt einen Raytracer aufbaut.
+
+=== Offizielle Trainings der Hersteller
+- / Unreal Engine Learning @epicUnrealEngineLearning: offizielle Lernpfade von Epic zu Materialien, Niagara, PCG, Substrate und Rigging.
+- / SideFX Houdini Learning Paths @sidefxHoudiniLearningPaths: kuratierte Lernpfade inklusive eigener Pfade für Gamedev und Pipeline.
+- / NVIDIA Deep Learning Institute @nvidiaDeepLearningInstitute: Kurse zu GPUs, Raytracing und Omniverse, teils mit Zertifikat.
+
+=== Mentorbegleitete, kostenpflichtige Schulen
+- / The Gnomon Workshop @gnomonWorkshop: Abo mit professionellen Workshops (Houdini, Lookdev, Shader) aus Film und Games.
+- / CG Master Academy @cgMasterAcademy: achtwöchige, mentorbegleitete Kurse unter anderem zu Houdini, Rigging und Prozeduralität.
+- / CG Spectrum @cgSpectrum: Technical-Art- und VFX-Diplome; SideFX-zertifiziert und Unreal Authorized Training Center.
+- / Vertex School @vertexSchool: Live-Programm "Tech Art" mit Unreal, Houdini, Niagara und Pipeline-Optimierung.
+- / VFX Apprentice @vfxApprentice: mentorbegleitete Echtzeit-VFX-Kurse in Unreal mit wöchentlichem Feedback.
+- / Rebelway @rebelway: SideFX-zertifizierte Houdini-Kurse für prozedurale Inhalte und FX.
+- / fxphd @fxphd: professionelles VFX-Training unter anderem zu Houdini VEX und Python, Shader Writing und Pipeline.
+- / CGCircuit @cgcircuit: Houdini- und Technical-Art-Tutorials, unter anderem Steven Knippings "Applied Houdini".
+- / CG Forge @cgForge: strukturierte Houdini-Kurse mit Zertifizierungen und begleitendem Nachschlagewerk.
+- / Houdini.School @houdiniSchool: Houdini-zertifizierte Einzelkurse, unter anderem "Maths for Artists", VEX und Noise.
+
+
+=== Zertifikate
 - generelle Unity-Zertifikate für Artists und Programmierer @unityCerts2024
 - Unity-Zertifikate @unityCertsTA2025 explizit für @TA:pl (welche aber aktuell noch in einer Beta-Phase sind): 
   - Technical Artist - Shading & Effects
   - Technical Artist - Rigging & Animation
+
 == Misc
 - #cite(<klos2023>, form: "author") und #cite(<hawes2025>, form: "author") fassen Portfolio-Tipps & generelle Karriere-Tipps für @TA:pl zusammen
 
@@ -847,4 +876,5 @@ Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen au
   "jobs.bib",
   "portfolios.bib",
   "talks.bib",
+  "courses.bib",
   ), style: "apa")
