@@ -5,11 +5,11 @@
 #let accent = rgb("#1f4e79")
 #let accent-light = rgb("#e8eef5")
 #let muted = rgb("#6b7280")
-
+#let me = "Théo Florin Roncoletta"
 #set text(lang: "de", font: "Fira Sans", size: 10.5pt)
 #set document(
   title: "Technical Artist - ein Berufsbild",
-  author: "Théo Florin Roncoletta",
+  author: me,
   description: "cooler Bericht",
 )
 
@@ -22,12 +22,12 @@
       let here-page = here().page()
       let on-page = query(heading.where(level: 1)).filter(h => h.location().page() == here-page)
       let before = if on-page.len() > 0 { on-page } else {
-        query(selector(heading.where(level: 1)).before(here()))
+        query(selector(heading.where(level: 2)).before(here()))
       }
       set text(size: 8.5pt, fill: muted)
       grid(
         columns: (1fr, auto),
-        [Berufsbildanalyse „Technical Artist“],
+        [Berufsbildanalyse „Technical Artist“ -- #me],
         if before.len() > 0 { before.last().body },
       )
       v(-0.6em)
@@ -164,7 +164,7 @@ an der Hochschule für angewandte Wissenschaften Neu-Ulm \
   ),
 ))
 
-= Technical Artist – ein Berufsbild
+#align(center, text(size: 30pt, weight: "bold")[Technical Artist – ein Berufsbild]) 
 
 Ein @TA steht zwischen dem Art- und Programmier-Team und vereinfacht und optimiert die Produktion und Integration von Art-Assets in das Spiel.
 
@@ -173,7 +173,7 @@ Technical Art ist ein sehr breites Berufsfeld. So kann es die Aufgabe eines @TA:
 Als Brücke zwischen der artistischen und technischen Seite der Spieleentwicklung dient ein @TA als Ansprechpartner für Artists und Designer, die auf technische Probleme stoßen. @riotJob So setzt sich ein @TA sowohl mit Artists als auch Programmierern zusammen, um über potenzielle Engpässe im Schaffungsprozess zu sprechen und die Integration von kommenden Features und Assets abzustimmen. Hierzu braucht ein @TA sowohl fundierte Kenntnisse in den künstlerischen Disziplinen als auch im Programmieren. @chadwick2009 @unrealJob @microsoftJob
 
 
-== Was macht einen Technical Artist aus und was sind seine Aufgaben?
+= Was macht einen Technical Artist aus und was sind seine Aufgaben?
 
 - technische Prototypen und Mockups die als Referenz dienen erstellen @unrealJob  @microsoftJob @riotJob
 - Asset-Integration in das Spiel managen
@@ -186,7 +186,7 @@ Als Brücke zwischen der artistischen und technischen Seite der Spieleentwicklun
 - Content-/Styleguides erstellen @indeed2024 @robinson2018
 - Kommunikationsbrücke zwischen den Art- und Tech-Teams @robinson2018 @microsoftJob
   
-== Karrierepfad
+= Karrierepfad
 Der tatsächliche Karrierepfad eines @TA:pl kann sehr unterschiedlich ausfallen. Meistens entwickelt sich ein @TA aus einer Person mit einem technischen oder artistischen Hintergrund. @TA:pl können sich hierbei in Bereichen wie Rigging, Animation, Lighting/Shading, Shaders, Texturing, Special-FX, Pipeline-Management, Tool-Entwicklung, Simulationen, prozedurale Content-Erstellung, Performance-Profiling, UI, Facial- und Motion-Rigging und vielem mehr spezialisieren. @robinson2018 @riot2018 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @massiveJobUi2026 @weltenbauerJobVfx2026 @insomniacJobFacial2026 @lightspeedJobMotion2025
 Ein paar der Optionen sind in @career-path aufgeführt. 
 
@@ -266,7 +266,7 @@ Aus Interviews von @gdcAkesson2011, @gdcButterworth2011, @gdcCloward2011, @gdcDe
 
 Stellenausschreibungen für @TA:pl (siehe @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @microsoftJob @riotJob) gibt es meist nur für Senior Stellen oder höher und verlangen oft eine Spezialisierung in einem spezifischen Feld. Von den 19 für diese Analyse ausgewerteten Stellenausschreibungen aus Nordamerika, Europa und Asien/Ozeanien (Stand 05.10.2026, siehe #link(<jobs>)[Jobs]) sind 13 als Senior-, Lead- oder Management-Position ausgeschrieben. Auch die übrigen setzen größtenteils mehrjährige Berufserfahrung oder bereits veröffentlichte Titel voraus. Keine einzige Junior- oder Praktikumsstelle gab es darunter. In den Interviews und aus der Berufsbeschreibung von #cite(<robinson2018>, form: "prose") geht hervor, dass der Karriereeinstieg meistens nicht direkt als @TA geschieht. Stattdessen entwickelt sich ein Artist oder Programmierer im Laufe der Karriere zu einem @TA, wenn die entsprechenden Skills vorhanden sind und ein @TA im Asset-Erstellungsprozess benötigt wird.
 
-== Skills
+= Skills
 Ein @TA benötigt Skills sowohl von der technischen als auch von der künstlerischen Seite des Game-Developments. Da der Einstieg in die Industrie überwiegend nur über die initiale Anstellung als Artist oder als Programmierer möglich ist, werden im Folgenden die Skills erst einmal separat aufgeschlüsselt. Um tatsächlich als @TA arbeiten zu können, werden ein Großteil der Skills aus beiden Kategorien benötigt. Außerdem werden auch weitere, @TA spezifische, Skills benötigt, die an letzter Stelle im Kapitel aufgelistet werden.
 
 In keiner Quelle lässt sich eine komplette Liste an nötigen Skills finden, die ein @TA benötigt, da sich die tatsächlichen Anforderungen der konkreten Tätigkeit stark unterscheiden. Grundsätzlich gilt aber, dass ein fundiertes Wissen von mindestens einem Games-Branchen-Job wie Level Design, Environment Art, Animation oder Coding vorhanden sein sollte. @robinson2018 
@@ -275,7 +275,7 @@ Die folgenden Listen sollten also eher als Guidelines gesehen werden. Dennoch gi
 
 Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen werden, ist zu sehen, dass sich die Grundlagen des Berufs nicht wirklich verändert haben: Python, Shader-Arbeit, Pipeline-Verständnis und Kommunikation gehören weiterhin zu den am häufigsten verlangten Fähigkeiten. Deutlich konkreter geworden sind dagegen die Anforderungen an Engine-Kenntnisse. Häufig gefragt ist hier Wissen über die Unreal Engine 5 und über Performance-Analyse mit konkreten Profiling-Tools. MaxScript und eigenständige Physik-Engines wie Havok werden hingegen nicht mehr genannt. KI und Machine Learning spielen bisher (Stand Oktober 2026) nur eine Nebenrolle.
 
-=== Programmierer
+== Programmierer
 - Scripting & Coding, um selbst Tools, Shader etc. zu entwickeln oder mit Skripten verschiedenste Dinge zu automatisieren. @indeed2024 @gdcParks2011 @gdcAkesson2011 @gdcGrimes2011 @gdcGalanakis2011 @gdcLong2011 @gdcHash2011 @gdcGood2011  @unrealJob @rockstarJobTaAnimation @rockstarJobTaDevOps @epicJobLeadTa2026 @riotJobTaManager2026 @vividJobTa2026 @avalancheJobProfiling2026 @rockfishJobTa2026 @weltenbauerJobVfx2026 hierbei kann es sich zum Beispiel um folgende Sprachen handeln:
   - Python @chadwick2009 @gdcParks2011 @gdcGalanakis2011 @gdcCloward2011 @gdcButterworth2011 @gdcGood2011 @robinson2018 @riotJob @riotJobTaAnim2026 @riotJobTaManager2026 @twoKJobRigger2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @eaJobRigging2026 @rockfishJobTa2026 @weltenbauerJobVfx2026
     - Qt / PySide für Benutzeroberflächen von Artist-Tools @riotJobTaManager2026 @twoKJobRigger2026 @eaJobRigging2026
@@ -300,7 +300,7 @@ Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen we
 
 - Software-Design-Muster, um gute und instand haltbare Software zu designen @gdcGalanakis2011 @gdcCloward2011 @rockstarJobTaAnimation
 
-=== Artist
+== Artist
 - Wissen über Industrie-Tools (z. B. die Adobe Suite) @unrealJob @microsoftJob @riotJob
   - Autodesk Maya @riotJobTaAnim2026 @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobRigger2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobMotion2025 @eaJobRigging2026
   - SideFX Houdini @epicJobLeadTa2026 @lightspeedJobTa2026 @rockstarJobProcedural2026 @weltenbauerJobVfx2026
@@ -337,10 +337,10 @@ Wenn die aktuellen Stellenausschreibungen mit den älteren Quellen verglichen we
 - Bild-Komposition @gdcGrimes2011
 
 
-=== Technical Artist spezifische Skills
+== Technical Artist spezifische Skills
 Diese Skills sind notwendig, um die künstlerische und technische Seite des Berufes zusammenzuführen.
 
-==== Hard
+=== Hard
 - Verständnis des kompletten Asset-Erstellungs-Workflows bzw. existierenden Pipelines um Engpässe zu erkennen, Tools zu entwickeln und zu erweitern @chadwick2009 @gdcHanna2011 @gdcAkesson2011 @gdcLindqvist2011 @gdcNielsen2011 @gdcPletcher2011 @gdcGibson2011 @gdcGoodman2011 @gdcFerguson2011 @robinson2018 @unrealJob  @rockstarJobTaAnimation @riotJob @riotJobTaManager2026 @epicJobLeadTa2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @eaJobRigging2026 @vividJobTa2026 @rockfishJobTa2026 @weltenbauerJobVfx2026 @lv2026amos
 - Wissen über Game-Engines und deren internen Systeme @unrealJob  @microsoftJob @rockstarJobTaAnimation
   - Unreal Engine 5 @riotJobTaAnim2026 @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobShader2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @techlandJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026 \
@@ -374,7 +374,7 @@ Diese Skills sind notwendig, um die künstlerische und technische Seite des Beru
   - Laut #cite(<gdc2026state>, form: "prose") nutzen 36 % der Befragten generative KI-Tools im Job, gleichzeitig sehen 52 % einen negativen Einfluss auf die Branche, im Bereich Visual und Technical Arts sogar 64 %.
 - Dokumentation @chadwick2009 @microsoftJob @rockstarJobTaDevOps @rockstarJobProcedural2026
 
-==== Soft
+=== Soft
 - gute Kommunikationsfähigkeiten (da @TA:pl zwischen den Artists und den Programmierern stehen und vermitteln müssen) @indeed2024 @gdcGibson2011 @gdcGoodman2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @robinson2018 @rockstarJobTaDevOps @riotJobTaAnim2026 @riotJobTaRender2026 @riotJobTaManager2026 @twoKJobShader2026 @twoKJobRigger2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @lightspeedJobTa2026 @lightspeedJobMotion2025 @massiveJobUi2026 @techlandJobTa2026 @avalancheJobProfiling2026 @eaJobRigging2026 @vividJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026 \
   (in 18 der 19 Stellen der Stichprobe als Anforderung oder Aufgabe genannt)
 - Fehlersuche- / Problemlösungsfähigkeiten @chadwick2009 @gdcCloward2011 @gdcGoodman2011 @gdcHash2011 @gdcButterworth2011 @gdcDecker2011 @gdcGood2011 @rockstarJobTaAnimation @rockstarJobTaDevOps @twoKJobRigger2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @rockstarJobProcedural2026 @avalancheJobProfiling2026 @vividJobTa2026 @rockfishJobTa2026 @welevelJobTa2026 @weltenbauerJobVfx2026
@@ -382,30 +382,44 @@ Diese Skills sind notwendig, um die künstlerische und technische Seite des Beru
 - Fähigkeit anderen Dinge beizubringen (z. B. das Beibringen von effizienteren Wegen Assets zu erstellen oder wie selbst entwickelte Tools zu nutzen sind) @chadwick2009 @gdcLindqvist2011 @gdcHash2011 @gdcDecker2011 @riotJobTaManager2026 @insomniacJobFacial2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @massiveJobUi2026 @rockfishJobTa2026
   - in Senior- und Lead-Rollen zusätzlich Mentoring und Führung anderer @TA:pl @riotJobTaManager2026 @epicJobLeadTa2026 @epicJobTechAnim2026 @massiveJobUi2026
 
-== Weitere Ressourcen
-=== Portfolios bekannter Technical Artists
+= Weitere Ressourcen
+
+== Portfolios bekannter Technical Artists
 / Freya Holmér @acegikmo2025: ist Hauptentwicklerin von Shapes, einem Unity-Asset zum programmatischen Generieren von Vektorgrafiken und besitzt einen YouTube-Kanal mit Tutorials für Grafikprogrammierung
 / Ben Cloward @clowardPort2025: ein @TA bei Unity, der auch einen YouTube-Kanal besitzt und dort Tutorials für Shaderprogrammierung veröffentlicht @cloward2025
 / Bronwen Grimes @grimes2012: ist eine @TA bei Valve
 / Wolf van Veen @wolf2025: ist ein @TA der an Mortal Kombat 1 und Multiversus gearbeitet hat
 
-=== Zertifikate
+
+== Bücher
+
+
+== Papers
+
+
+== Tutorials & Blogs
+
+
+== Konferenzen
+
+
+== Zertifikate
 - generelle Unity-Zertifikate für Artists und Programmierer @unityCerts2024
 - Unity-Zertifikate @unityCertsTA2025 explizit für @TA:pl (welche aber aktuell noch in einer Beta-Phase sind): 
   - Technical Artist - Shading & Effects
   - Technical Artist - Rigging & Animation
-=== Misc
+== Misc
 - #cite(<klos2023>, form: "author") und #cite(<hawes2025>, form: "author") fassen Portfolio-Tipps & generelle Karriere-Tipps für @TA:pl zusammen
 
-== Karriereplan
+= Karriereplan
 Mein Ziel ist es, das Praxis-Semester als Junior @TA bei einem Game-Studio durchzuführen. Dazu brauche ich Skills, die ich über Kurse in den folgenden Semestern erwerben werde. Im Folgenden werden die für einen @TA relevanten Kurse aufgelistet und eine kurze Beschreibung meiner Ziele in diesem Semester gegeben. Konkrete Kursentscheidungen werde ich zu einem späteren Zeitpunkt treffen.
 
-=== 1. & 2. Semester (2025/2026)
+== 1. & 2. Semester (2025/2026)
 In den ersten beiden Semestern werde ich mich über Zuständigkeiten eines @TA:pl informieren und aktiv nach Studios suchen, in welchen ich mich zum @TA hocharbeiten könnte. Hierzu werde ich nach Ausschreibungen für Praktikantenplätze suchen, die spezifisch nach Artists oder Programmierern fragen. Damit ich sinnvoll auf die späteren Praktika vorbereitet bin, werde ich dann auf die konkreten Studios zugehen und fragen, was ich lernen müsste und wie mein Portfolio auszusehen hätte, um bei ihnen im Bereich der Tech-Art arbeiten zu können.
 
 Mein Ziel ist es, mindestens 3 Firmen (wenn möglich auch im Ausland) zu haben, bei denen ich mich mit meinem Portfolio im #link(<internship>)[\6. Semester] bewerben kann. Außerdem weiß ich, welche Skills sie konkret von mir verlangen würden.
 
-=== 3. Semester (2026)
+== 3. Semester (2026)
 Relevante Kurse, die in diesem Semester angeboten werden:
   - [Art] 2D Object Design
   - [Art] 3D Object Design
@@ -413,7 +427,7 @@ Relevante Kurse, die in diesem Semester angeboten werden:
 Nach diesem Semester möchte ich die Basics von Asset Design (2D oder 3D) erlernt haben. Die grundlegenden mathematischen Kenntnisse, die ich als @TA benötige, will ich hier auch erwerben. Hierzu werde ich eine der beiden Object Design Vorlesungen besuchen und das gelernte in kleinen Beispielprojekten unabhängig von Hochschulprojekten und -abgaben umsetzen. Konkret möchte ich mindestens einen Shader für mein Portfolio geschrieben haben und diesen über die Anwendung an einem simplen Subjekt zeigen. Die Ergebnisse werde ich, wenn zeitlich möglich auf meiner Website hochladen und einen kleinen erklärenden Blogartikel schreiben.\ 
 Welche der beiden Auslegungen (2D oder 3D) ich besuche, werde ich noch entscheiden. Nach diesem Semester möchte ich wissen, auf welchen der beiden Bereiche ich mich vorerst spezialisieren möchte.
 
-=== 4. Semester (2026/2027)
+== 4. Semester (2026/2027)
 Relevante Kurse, die in diesem Semester angeboten werden:
   - [Art] 2D Environment & Level Design
   - [Art] 3D Environment & Level Design
@@ -422,7 +436,7 @@ Relevante Kurse, die in diesem Semester angeboten werden:
 In diesem Semester will ich das Wissen aus dem 3. Semester vertiefen. Hier will ich vor allem die technische Einbindung der erstellten Assets in die Spiele erlernen. Konkret habe ich das Ziel ein Tool zu entwickeln, welches das Einbinden von Assets in ein Spiel vereinfacht und für eines der Game-Projekte in diesem Semester verwendet werden kann. Was genau dieses Tool macht, werde ich davon abhängig machen, auf welche Richtung (2D oder 3D) ich mich zu diesem Zeitpunkt fokussiert habe.\
 Mein Erlerntes möchte ich erneut in jeweils einem kleinen hochschulunabhängigen Portfolio-Projekt anwenden.
 
-=== 5. Semester (2027)
+== 5. Semester (2027)
 Relevante Kurse, die in diesem Semester angeboten werden:
   - [Art] 2D Character & Creature Design
   - [Art] 3D Character & Creature Design
@@ -430,37 +444,37 @@ Relevante Kurse, die in diesem Semester angeboten werden:
   - [Programming] Data Design for Game
 In diesem Semester habe ich vor allem die Tool-Entwicklung im Blick, da gerade bei Character-Rigging Tools eine große Menge an Zeit sparen können. Vor allem möchte ich mich hier auf Usability und Performance des Tools fokussieren. Die Lektionen, die im UI/UX-Design- oder Data-Design-Kurs gelernt wurden, werde ich dabei gut einsetzen können.
 
-=== 6. Semester (2027/2028) <internship>
+== 6. Semester (2027/2028) <internship>
 - Mein Ziel ist es, ein Praktikum bei einem etablierten Studio zu absolvieren und dabei praktische Skills in Richtung der Integration von Art in Games zu sammeln und zu verbessern. Konkret möchte ich hier vor allem entweder eine Stelle mit Fokus auf die Programmierung oder auf die Art und Asset-Erstellung ergattern.
 - Hierzu werde ich, wie oben erwähnt, bereits im Vorhinein Anfragen verschicken und Studios fragen, was ich in den nächsten 2 Jahren lernen und im Portfolio haben sollte, um bei ihnen ein Praktikum absolvieren zu können.
 
-==== Interessante Studios in Deutschland
+=== Interessante Studios in Deutschland
 
 / Chasing Carrots @chasingCarrots2025: Dieses Studio würde mich interessieren, da es in der näheren Umgebung ist. Da es sich hier um ein kleineres Team handelt und dort auch konkret ein @TA angestellt ist, habe ich die Hoffnung mich mit diesem konkret über den Beruf eines @TA:pl austauschen zu können und die Tätigkeiten eines @TA:pl ausüben zu können.
 / Kalypso Studios @kalypso2025: Bei Kalypso verspreche ich mir vor allem die Arbeit mit großen Mengen an Assets, da ihr Portfolio hauptsächlich aus verschiedenen Management-Games besteht. Hier werde ich aber höchstwahrscheinlich entweder als Programmierer oder Artist einsteigen müssen.
 / InnoGames @innogames2025: InnoGames ist ein größeres Studio (350+ Angestellte) in dem ich die Arbeit in größeren Teams erlernen könnte.  
 
 
-==== Interessante Studios in Schweden
+=== Interessante Studios in Schweden
 / Massive Entertainment  @massive2025: Ein Studio mit einem Portfolio von grafisch und technisch beeindruckenden Spielen wie #quote[Star Wars Outlaws], #quote[Avatar: Frontiers of Pandora] und #quote[Tom Clancy's The Division 2]. Hier erhoffe ich mir zu lernen, wie ein @TA hochdetaillierte Assets in Spiele integriert, ohne dabei die Performance leiden zu lassen.
 / DICE Studios @dice2025: DICE sind Macher von einigen Battlefield Teilen, #quote[Battlefront] und #quote[Mirror's Edge]. Hier erhoffe ich mir, mit massiven Asset-Mengen in großen Teams zu arbeiten und zu erlernen, wie große Studios die Pipelines für solche Assets managen.
 / Arrowhead Game Studios @arrowheadInternship: Dieses Studio besitzt im Moment noch kein Praktikumsprogramm, arbeitet aber aktiv daran, eines anzubieten. Sie sind die Macher von #quote[Helldivers 2], einem grafisch hochwertigen Spiel mit gigantischen Massen an Gegner und visuellen Effekten. Wenn das Praktikantenprogramm rechtzeitig zum 6. Semester angeboten wird, kann ich mir gut vorstellen, dass ich dort viele Skills erlernen könnte, die ich als Technical Artist benötige.
 / Axolot Games @axolot2024: Die Macher von #quote[Raft] und #quote[Scrap Mechanic], beides Survival-Base-Builder-Games. Bei Axolot Games würde ich mir erhoffen zu lernen wie mit dynamischen Assets (Player gebaute Basen und Mechanismen) umzugehen ist und wie Systeme dahinter aussehen, die Konsistenz in Verhalten und Physik kontrollieren.
 
-=== 7. Semester (2028)
+== 7. Semester (2028)
   - Projekt: Game Project in der Rolle eines @TA und Programmierers
   - Bachelorarbeit
 In diesem Semester werde ich das ganze gelernte fokussiert anwenden. Bestenfalls ist das Thema meiner Bachelorarbeit auch auf einen Themenbereich fokussiert, der für mich als @TA relevant ist.
 
-=== Portfolio-Aufbauen (2028)
+== Portfolio-Aufbauen (2028)
 - Existierende Projekte, die sich für mein Portfolio eignen, aufbereiten und in Form einer Website an einem Platz zur Einsicht bereitstellen. Am besten sollten alle Projekte direkt im Browser ausgeführt werden können oder einsehbar sein.
 - Kleinprojekte, die meine Skills in verschiedenen Bereichen zeigen, umsetzen
 - mindestens ein kleines Spiel auf Itch.io oder Steam veröffentlichen, damit ich den Release-Prozess mindestens einmal komplett durchlaufen habe
 
-=== Erster Job (2029)
+== Erster Job (2029)
 - Junior-Stelle als Game-Programmierer bei einem AA oder AAA-Unternehmen
 
-== Nebenprojekte und generelles Herangehen
+= Nebenprojekte und generelles Herangehen
 - In freien Minuten möchte ich kleinere Projekte realisieren, die ich entweder in meinem Portfolio präsentieren kann oder die mir relevante Skills beibringen. Nach aktuellem Plan habe ich folgende Mini-Projekte geplant:
   - Das Nachbauen von Spielmechaniken aus bekannten Spielen, mit gutem Game-Feel (z. B. das Movement aus Celeste) und schönen Effekten (z. B. das Gras aus Ghost of Tsushima), um die konkrete Arbeit mit Game-Engines zu erlernen. Hier habe ich eine konkrete Messlatte (die kopierten Spiele) an der ich meine Implementierung messen kann.
   - Motion Tracking mit Protokollanbindungen wie VRCFace, VMC und Ultraleap, um Rigging und Data-Streaming zu lernen
@@ -469,7 +483,7 @@ In diesem Semester werde ich das ganze gelernte fokussiert anwenden. Bestenfalls
 - Ich muss mich auch aktiv selbst weiterbilden in den Bereichen, in denen das Studium keine Möglichkeiten bietet. Dafür habe ich bereits einige Bücher, die tiefer auf die technischen Details des Renderings eingehen. Das Besuchen von Kursen und das Teilnehmen an verschiedenen Programmier- und Kunst-Challenges  wird mir aber auch weiterhelfen. Konkret hätte ich hier Inktober und Swordtember zum Start angepeilt.
 - Da sich die Technologie stetig weiterentwickelt, muss ich auch aktiv den Neuigkeiten über Engines und Entwicklerstudios folgen, damit meine Skills nicht veralten. Hierzu werde ich relevante E-Mail-Newsletter und RSS-Feeds abonnieren und lesen.
 
-== Jobs <jobs>
+= Jobs <jobs>
 Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen aufgeführt: zuerst die 19 aktuellen Ausschreibungen (Stand 05.10.2026), danach die Ausschreibungen aus der ursprünglichen Analyse (2024/2025), die inzwischen nicht mehr online sind.
 
 #figure(
@@ -591,4 +605,13 @@ Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen au
   image("job-images/senior-technical-artist-rendering-riot.png",height: 23cm),
   caption: [Jobangebot als Technical Artist bei Riot mit Fokus auf Rendering und UI/UX @riotJob],
 )
-#bibliography("sources.bib", style: "apa")
+#bibliography((
+  "blogsXpapers.bib",
+  "books.bib",
+  "certs.bib",
+  "conferences.bib",
+  "jobs.bib",
+  "portfolios.bib",
+  "talks.bib",
+  "tutorials.bib",
+  ), style: "apa")
