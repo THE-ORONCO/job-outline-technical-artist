@@ -596,6 +596,22 @@ Im Folgenden sind einige der wichtigsten Papers aufgelistet und erklärt wo solc
 
 
 == Tutorials & Blogs
+Die folgenden Blogs, Artikelserien und YouTube-Kanäle eignen sich als Einstieg und als laufende Referenz für @TA:pl: Sie erklären Techniken aus der Praxis und halten die Themen aktuell, die im Berufsalltag immer wieder auftauchen.
+
+- / 30fps.net @vaananen30fps: Blog von Pekka Väänänen rund um Computergrafik und -programmierung mit tiefen, aber gut lesbaren Artikeln zu Rendering, Rasterisierung und GPUs.
+- / Acerola @acerolaYouTube: Grafik- und Rendering-Breakdowns (etwa zu Blur oder der Grafik von Silksong), die anschaulich erklären, wie Effekte technisch funktionieren.
+- / Ben Cloward @benClowardYouTube: Shader-Tutorials in Unity und Unreal (u. a. eine ausführliche Reihe zu Unreal Substrate) von einem erfahrenen Technical Artist; sehr praxisnah.
+- / GM Shaders @xorGmShaders: Kurze Mini-Shader-Tutorials von Xor auf Substack, die Techniken unabhängig von einer einzelnen Engine vermitteln; gut als Nachschlagewerk.
+- / Inigo Quilez @quilezPaintingWithMaths: Kanal "Painting with Maths", auf dem Quilez Mathematik als Gestaltungswerkzeug für Formen, Shader und prozedurale Kunst nutzt.
+- / Inigo Quilez (Artikel) @quilezArticles: Quilez' Artikelsammlung zu Shadern, Signed Distance Functions, Noise und Demoszene-Mathematik; eine der besten Referenzen für Shader-Arbeit.
+- / Jacco's Blog @bikkerJaccosBlog: Jacco Bikkers Artikel und Code zu Raytracing, Rasterisierung und Performance.
+- / Simonschreibt @trumplerSimonschreibt: Simon "Schreibt" Trümpler analysiert Game-Art-Tricks (VFX, Shader, Level-Art) bekannter Titel; ideal als Referenz für Effekt- und Look-Entwicklung.
+- / Graphics Programming Weekly @illnerGraphicsWeekly: Jendrik Illner sammelt jede Woche die wichtigsten Artikel und Talks der Grafikprogrammier-Szene und hält so ohne Eigenrecherche auf dem Laufenden.
+- / 3Blue1Brown @sanderson3Blue1Brown: Grant Sanderson visualisiert Mathematik (Lineare Algebra, Analysis) — genau die Grundlagen, auf denen Shader, Transformationen und Beleuchtung aufbauen.
+- / All Angles @allAnglesYouTube: Animierte Erklärvideos zu Mathematik und Physik, u. a. eine ausführliche Serie zu geometrischer Algebra, Rotoren und Quaternionen; direkt relevant für Rotationen und Rigging.
+- / Josh's Channel @joshChannelYouTube: Deep Dives zu Rendering und Spieleentwicklung (etwa Raytracing oder prozedurale Berg-Generatoren) mit Fokus auf das Warum und eigene Experimente.
+- / Computer, Enhance! @muratoriComputerEnhance: Casey Muratori zu Performanz und Low-Level-Programmierung; hilft, die Kosten von Tools und Pipelines realistisch einzuschätzen.
+- / Freya Holmér @holmerFreyaYouTube: Videos zu Tech-Art, Mathematik und Game-Dev (Vektoren, Interpolation, Shader-Grundlagen, Bézier-Kurven); sehr nah an der Tech-Art-Praxis.
 
 
 == Konferenzen
