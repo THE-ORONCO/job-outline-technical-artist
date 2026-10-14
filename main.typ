@@ -547,6 +547,26 @@ Die folgenden Bücher könnten für @TA:pl interessant sein und decken
 
 
 == Konferenzen
+Konferenzen sind für @TA:pl besonders wertvoll, weil sich Tools, Pipelines und Engine-Features ständig wandeln und viel Wissen nur persönlich weitergegeben wird. Die folgende Auswahl trennt große internationale Konferenzen, Veranstaltungen in Deutschland sowie regelmäßige Meetups und Online-Angebote.
+
+=== Große internationale Konferenzen
+- *GDC – Game Developers Conference* (San Francisco, jährlich im März) @gdcGameDevelopersConference: mit eigenem *Technical Artist Summit* — u. a. Panel-Diskussion, Shader-Sessions und dem Technical-Artist-Roundtable (2026 im 20. Jahr) @gdcTechnicalArtistSummit. Ältere TA-Bootcamp-Sessions liegen im GDC Vault @gdcVaultTechnicalArtistBootCamp.
+- *SIGGRAPH* (Nordamerika, jährlich im Sommer) @siggraph: die Grafik-Konferenz; für @TA:pl v. a. der Track Gaming & Interactive und der Kurs #cite(<siggraph2025advances>, form: "prose") relevant.
+- *Unreal Fest* (mehrere Städte weltweit) @unrealFest: Engine-Konferenz von Epic mit Sessions, Demos und Labs — Pflicht bei UE-Fokus, inkl. State-of-Unreal-Keynote.
+- *Unite* (Unity, u. a. Seoul/Tokio) @unityUnite: das Gegenstück für Unity-User (Engine-Roadmap, Shader-/Render-Pipeline-Themen).
+- *Everything Procedural Conference* (Breda, Niederlande, jährlich im April) @everythingProcedural: kleine, fokussierte Konferenz zu prozeduraler Content-Erstellung für Spiele, inkl. Houdini-Masterclasses — direkt relevant für Procedural- und Pipeline-@TA:pl.
+
+=== Deutschland
+- *gamescom dev* (Köln, jährlich im August vor der gamescom) @gamescomDev: Europas größte Entwicklerkonferenz (bis 2025 als *devcom* bekannt), mit ca. 220 Sessions, Expo, Matchmaking und Indie-Bereich.
+- *FMX – Film & Media Exchange* (Stuttgart, jährlich im Frühjahr) @fmx: Europas wichtigste Konferenz für Animation, VFX und digitale Medien, mit starkem Realtime-/Games-Anteil, Workshops und Recruiting Hub (nächste Ausgabe: 27.–30.04.2027).
+- *Games Ground* (Berlin, jährlich im November) @gamesGround: Games-Festival mit Business Days (kuratierte Talks, Panels, Workshops zum Entwicklungs-Handwerk) und ermäßigten Tickets für Studierende.
+- *GermanDevDays* (Frankfurt) @germanDevDays: Vorträge, Panels und Workshops in entspanntem Rahmen; traditionell kostenlos für Schüler:innen und Studierende.
+- *GG Bavaria / Games/Bavaria* (München) @ggBavaria, @gamesBavariaEvents: Business Day, Pizza-Playtests und regionale Vernetzung der bayerischen Szene.
+
+=== Meetups & Online
+- *GAME/DEV/MUC-Stammtisch* (München, jeden zweiten Montag im Monat) @gamedevMuc: offener Stammtisch für alle, ob Indie, angestellt oder Studium — gut für erste Kontakte.
+- *Gamedev-Meetup Dresden* @gamedevDresden: Community mit Discord und regelmäßigen Treffen inkl. Fachvorträgen.
+- *tech-artists.org* @techArtistsOrg: die zentrale Online-Community der @TA:pl (Forum, Slack, Jobbörse) — der Ort, um Talk-Empfehlungen und Meetups zu finden.
 
 
 == Zertifikate
