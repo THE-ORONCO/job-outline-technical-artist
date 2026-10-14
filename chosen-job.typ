@@ -149,7 +149,13 @@ an der Hochschule für angewandte Wissenschaften Neu-Ulm \
 
 #pagebreak()
 
-Diese Analyse befasst sich mit der Stellenausschreibung *Engine Programming Internship* von Larian Studios am Standort Barcelona (Vollzeit, Arbeit vor Ort). Ausgangspunkt ist die Originalausschreibung @larianJobEngineIntern2026. Sie wird zunächst mit dem Unternehmen und seinem aktuellen Kurs abgeglichen, anschließend werden die Probleme herausgearbeitet, die Larian mit dieser Stelle lösen möchte, und zuletzt werden Risiken und Argumente für oder gegen eine Bewerbung abgewogen. Die verwendeten Quellen finden sich in der Bibliografie am Ende des Dokuments.
+#figure(
+    image("job-images/Larian Engine Programming Intern - Barcelona.png"),
+    caption: [Stellenanzeige @larianJobEngineIntern2026],
+    placement: auto,
+)<fig-job>
+
+Diese Analyse befasst sich mit der Stellenausschreibung *Engine Programming Internship* von Larian Studios am Standort Barcelona (Vollzeit, Arbeit vor Ort) (siehe @fig-job). Ausgangspunkt ist die Originalausschreibung @larianJobEngineIntern2026. Sie wird zunächst mit dem Unternehmen und seinem aktuellen Kurs abgeglichen, anschließend werden die Probleme herausgearbeitet, die Larian mit dieser Stelle lösen möchte, und zuletzt werden Risiken und Argumente für oder gegen eine Bewerbung abgewogen. Die verwendeten Quellen finden sich in der Bibliografie am Ende des Dokuments.
 
 = Ausrichtung an Unternehmen und aktuellem Kurs
 
@@ -272,14 +278,14 @@ Das ist eine Chance mit hohem Prestige, hohem Risiko und hoher Belohnung. Larian
 
 Die Stelle ist erkennbar darauf angelegt, in das *Divinity*-Projekt einzufließen und Nachwuchs für die Engine aufzubauen @restartNewEngine2025 @larianJobEngineProgrammer2026. Wer das nötige C++-Portfolio mitbringt und Lust auf Systemprogrammierung hat, findet hier einen außergewöhnlichen Karrierestart. Man sollte sich aber bewusst sein, dass die Rolle befristet ist und dass ein möglicher Crunch sowie die Unsicherheit eines noch nicht enthüllten Titels dazugehören.
 
+Diese Stelle bietet ein Gutes Fundament um sich zu einem Tech-Artist hochzuarbeiten, denn bei der Engine-Programmierung sind viele ähnlichen Aspekte relevant wie bei der Tätigkeit eines Tech-Artists:
+- Performance
+- Integration der Assets
+- Usability über Tools und Dev-Funktionen
+- Tiefgreifendes Wissen ist nötig
 
 #pagebreak()
 
-
-#figure(
-    image("job-images/Larian Engine Programming Intern - Barcelona.pdf"),
-    caption: [Stellenanzeige @larianJobEngineIntern2026]
-)
 
 
 #bibliography("job.bib", style: "apa")
