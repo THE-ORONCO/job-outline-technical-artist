@@ -73,9 +73,13 @@
 
 // ---------- Listen, Links, Zitate ----------
 #set list(indent: 4mm, marker: (text(fill: accent)[◆], text(fill: accent)[►]))
-#show terms.item: it => block(above: 0.8em)[
-  #text(weight: "bold", fill: accent, it.term)#h(0.6em)#it.description
-]
+// #show terms.item: it => block(above: 0.8em)[  
+//   #text(weight: "bold", fill: accent, [#it.term:])#h(0.6em)#it.description
+// ]
+#show terms: it => {
+  show strong: it => text(weight: "bold", fill: accent, it.body)
+  it
+}
 #show link: set text(fill: accent)
 #show cite.where(form: "normal"): set text(fill: muted, size: 0.9em)
 
@@ -779,5 +783,4 @@ Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen au
   "jobs.bib",
   "portfolios.bib",
   "talks.bib",
-  "tutorials.bib",
   ), style: "apa")
