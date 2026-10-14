@@ -140,7 +140,7 @@ an der Hochschule für angewandte Wissenschaften Neu-Ulm \
   [],[],
   [Prüfer:], [Prof. Michael Hebel#v(10mm)],
   [Verfasser/-in:], [Théo Florin Roncoletta (Matrikel-Nr.: 379030)#v(30mm)],
-  [Thema erhalten:],	[09.04.2026],
+  [Thema erhalten:],	[01.10.2026],
   [Arbeit abgegeben:], [#datetime.today().display("[day].[month].[year]")#v(10mm)],
 )
 
@@ -220,9 +220,9 @@ digraph G {
       TASim [label="Simulation"]
       TAProc [label="Procedural"]
       TAVFX [label="VFX"]
-      TAPerf [label="Performance /\nProfiling"]
+      TAPerf [label="Performance/Profiling"]
       TAUI [label="UI"]
-      TAFace [label="Facial / Motion"]
+      TAFace [label="Facial/Motion Capture"]
       TAO [label="..."]
     }
 
@@ -677,35 +677,26 @@ Die folgenden Kurse und Programme sind gute startpunkte für kommende @TA:pl um 
 = Karriereplan
 Mein Ziel ist es, das Praxis-Semester als Junior @TA bei einem Game-Studio durchzuführen. Dazu brauche ich Skills, die ich über Kurse in den folgenden Semestern erwerben werde. Im Folgenden werden die für einen @TA relevanten Kurse aufgelistet und eine kurze Beschreibung meiner Ziele in diesem Semester gegeben. Konkrete Kursentscheidungen werde ich zu einem späteren Zeitpunkt treffen.
 
-== 1. & 2. Semester (2025/2026)
-In den ersten beiden Semestern werde ich mich über Zuständigkeiten eines @TA:pl informieren und aktiv nach Studios suchen, in welchen ich mich zum @TA hocharbeiten könnte. Hierzu werde ich nach Ausschreibungen für Praktikantenplätze suchen, die spezifisch nach Artists oder Programmierern fragen. Damit ich sinnvoll auf die späteren Praktika vorbereitet bin, werde ich dann auf die konkreten Studios zugehen und fragen, was ich lernen müsste und wie mein Portfolio auszusehen hätte, um bei ihnen im Bereich der Tech-Art arbeiten zu können.
-
-Mein Ziel ist es, mindestens 3 Firmen (wenn möglich auch im Ausland) zu haben, bei denen ich mich mit meinem Portfolio im #link(<internship>)[\6. Semester] bewerben kann. Außerdem weiß ich, welche Skills sie konkret von mir verlangen würden.
-
-== 3. Semester (2026)
-Relevante Kurse, die in diesem Semester angeboten werden:
-  - [Art] 2D Object Design
-  - [Art] 3D Object Design
-  - [Programming] Applied Mathematics for Game
-Nach diesem Semester möchte ich die Basics von Asset Design (2D oder 3D) erlernt haben. Die grundlegenden mathematischen Kenntnisse, die ich als @TA benötige, will ich hier auch erwerben. Hierzu werde ich eine der beiden Object Design Vorlesungen besuchen und das gelernte in kleinen Beispielprojekten unabhängig von Hochschulprojekten und -abgaben umsetzen. Konkret möchte ich mindestens einen Shader für mein Portfolio geschrieben haben und diesen über die Anwendung an einem simplen Subjekt zeigen. Die Ergebnisse werde ich, wenn zeitlich möglich auf meiner Website hochladen und einen kleinen erklärenden Blogartikel schreiben.\ 
-Welche der beiden Auslegungen (2D oder 3D) ich besuche, werde ich noch entscheiden. Nach diesem Semester möchte ich wissen, auf welchen der beiden Bereiche ich mich vorerst spezialisieren möchte.
-
 == 4. Semester (2026/2027)
 Relevante Kurse, die in diesem Semester angeboten werden:
-  - [Art] 2D Environment & Level Design
-  - [Art] 3D Environment & Level Design
-  - [Programming] Game Dev Disciplines & Technology
-  - [Game Design] Level & Systems Design
-In diesem Semester will ich das Wissen aus dem 3. Semester vertiefen. Hier will ich vor allem die technische Einbindung der erstellten Assets in die Spiele erlernen. Konkret habe ich das Ziel ein Tool zu entwickeln, welches das Einbinden von Assets in ein Spiel vereinfacht und für eines der Game-Projekte in diesem Semester verwendet werden kann. Was genau dieses Tool macht, werde ich davon abhängig machen, auf welche Richtung (2D oder 3D) ich mich zu diesem Zeitpunkt fokussiert habe.\
-Mein Erlerntes möchte ich erneut in jeweils einem kleinen hochschulunabhängigen Portfolio-Projekt anwenden.
+  - [Art] 3D Object Design
+  - [Programming] Mobile Development for Game
+  - [Game Design] Creative Direction & Narrative Design
+Ziele:
+- Wissen vertiefen
+- erste Tools bauen
+- erste 3D-Erfahrungen sammeln
 
 == 5. Semester (2027)
-Relevante Kurse, die in diesem Semester angeboten werden:
+Relevante Kurse, die in diesem Semester angeboten werden könnten:
   - [Art] 2D Character & Creature Design
   - [Art] 3D Character & Creature Design
   - [Programming] Interface & UX for Games
   - [Programming] Data Design for Game
-In diesem Semester habe ich vor allem die Tool-Entwicklung im Blick, da gerade bei Character-Rigging Tools eine große Menge an Zeit sparen können. Vor allem möchte ich mich hier auf Usability und Performance des Tools fokussieren. Die Lektionen, die im UI/UX-Design- oder Data-Design-Kurs gelernt wurden, werde ich dabei gut einsetzen können.
+Ziele:
+- Portfolio ausbauen
+- C++ deep dive
+- Unreal-Erfahrung sammeln
 
 == 6. Semester (2027/2028) <internship>
 - Mein Ziel ist es, ein Praktikum bei einem etablierten Studio zu absolvieren und dabei praktische Skills in Richtung der Integration von Art in Games zu sammeln und zu verbessern. Konkret möchte ich hier vor allem entweder eine Stelle mit Fokus auf die Programmierung oder auf die Art und Asset-Erstellung ergattern.
@@ -723,11 +714,6 @@ In diesem Semester habe ich vor allem die Tool-Entwicklung im Blick, da gerade b
 / DICE Studios @dice2025: DICE sind Macher von einigen Battlefield Teilen, #quote[Battlefront] und #quote[Mirror's Edge]. Hier erhoffe ich mir, mit massiven Asset-Mengen in großen Teams zu arbeiten und zu erlernen, wie große Studios die Pipelines für solche Assets managen.
 / Arrowhead Game Studios @arrowheadInternship: Dieses Studio besitzt im Moment noch kein Praktikumsprogramm, arbeitet aber aktiv daran, eines anzubieten. Sie sind die Macher von #quote[Helldivers 2], einem grafisch hochwertigen Spiel mit gigantischen Massen an Gegner und visuellen Effekten. Wenn das Praktikantenprogramm rechtzeitig zum 6. Semester angeboten wird, kann ich mir gut vorstellen, dass ich dort viele Skills erlernen könnte, die ich als Technical Artist benötige.
 / Axolot Games @axolot2024: Die Macher von #quote[Raft] und #quote[Scrap Mechanic], beides Survival-Base-Builder-Games. Bei Axolot Games würde ich mir erhoffen zu lernen wie mit dynamischen Assets (Player gebaute Basen und Mechanismen) umzugehen ist und wie Systeme dahinter aussehen, die Konsistenz in Verhalten und Physik kontrollieren.
-
-== 7. Semester (2028)
-  - Projekt: Game Project in der Rolle eines @TA und Programmierers
-  - Bachelorarbeit
-In diesem Semester werde ich das ganze gelernte fokussiert anwenden. Bestenfalls ist das Thema meiner Bachelorarbeit auch auf einen Themenbereich fokussiert, der für mich als @TA relevant ist.
 
 == Portfolio-Aufbauen (2028)
 - Existierende Projekte, die sich für mein Portfolio eignen, aufbereiten und in Form einer Website an einem Platz zur Einsicht bereitstellen. Am besten sollten alle Projekte direkt im Browser ausgeführt werden können oder einsehbar sein.
