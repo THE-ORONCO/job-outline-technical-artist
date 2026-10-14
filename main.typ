@@ -831,5 +831,4 @@ Im Folgenden sind die für diese Analyse ausgewerteten Stellenausschreibungen au
   "jobs.bib",
   "portfolios.bib",
   "talks.bib",
-  "tutorials.bib",
   ), style: "apa")
